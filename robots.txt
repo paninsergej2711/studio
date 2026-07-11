@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /db/
+Disallow: /data/
+
+Sitemap: https://bobr-studio.ru/sitemap.xml

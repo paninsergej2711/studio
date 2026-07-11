@@ -1,0 +1,770 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 600 650"
+   version="1.1"
+   id="app-design-svg"
+   sodipodi:docname="app-design.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs66" />
+  <sodipodi:namedview
+     id="namedview66"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="1.2538462"
+     inkscape:cx="175.8589"
+     inkscape:cy="118.43558"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="app-design-svg" />
+  <g
+     stroke="#1A1A1A"
+     fill="none"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="g66">
+    <g
+       id="app-all"
+       fill-rule="nonzero">
+      <!-- Smartphone center -->
+      <g
+         transform="translate(230,50)"
+         id="g17">
+        <rect
+           x="0"
+           y="0"
+           width="140"
+           height="260"
+           rx="16"
+           fill="#FFFFFF"
+           stroke-width="3"
+           id="rect1" />
+        <rect
+           x="6"
+           y="6"
+           width="128"
+           height="235"
+           rx="12"
+           fill="#1A1A1A"
+           stroke-width="2"
+           id="rect2" />
+        <!-- App UI on screen -->
+        <rect
+           x="12"
+           y="12"
+           width="116"
+           height="20"
+           rx="4"
+           fill="#8f4f23"
+           stroke="none"
+           id="rect3" />
+        <rect
+           x="18"
+           y="18"
+           width="30"
+           height="8"
+           rx="2"
+           fill="#FFFFFF"
+           stroke="none"
+           opacity="0.6"
+           id="rect4" />
+        <rect
+           x="12"
+           y="38"
+           width="116"
+           height="90"
+           rx="4"
+           fill="#FFFFFF"
+           stroke-width="1.5"
+           id="rect5" />
+        <rect
+           x="18"
+           y="44"
+           width="50"
+           height="35"
+           rx="2"
+           fill="#8f4f23"
+           stroke="none"
+           opacity="0.4"
+           id="rect6" />
+        <rect
+           x="74"
+           y="44"
+           width="48"
+           height="35"
+           rx="2"
+           fill="#8f4f23"
+           stroke="none"
+           opacity="0.2"
+           id="rect7" />
+        <rect
+           x="18"
+           y="86"
+           width="104"
+           height="8"
+           rx="1"
+           fill="#8f4f23"
+           stroke="none"
+           opacity="0.3"
+           id="rect8" />
+        <rect
+           x="18"
+           y="100"
+           width="80"
+           height="6"
+           rx="1"
+           fill="#8f4f23"
+           stroke="none"
+           opacity="0.2"
+           id="rect9" />
+        <rect
+           x="12"
+           y="134"
+           width="56"
+           height="40"
+           rx="3"
+           fill="#FFFFFF"
+           stroke-width="1.5"
+           id="rect10" />
+        <rect
+           x="72"
+           y="134"
+           width="56"
+           height="40"
+           rx="3"
+           fill="#FFFFFF"
+           stroke-width="1.5"
+           id="rect11" />
+        <rect
+           x="18"
+           y="140"
+           width="44"
+           height="10"
+           rx="2"
+           fill="#8f4f23"
+           stroke="none"
+           opacity="0.4"
+           id="rect12" />
+        <rect
+           x="78"
+           y="140"
+           width="44"
+           height="10"
+           rx="2"
+           fill="#8f4f23"
+           stroke="none"
+           opacity="0.3"
+           id="rect13" />
+        <rect
+           x="12"
+           y="180"
+           width="116"
+           height="12"
+           rx="2"
+           fill="#8f4f23"
+           stroke="none"
+           opacity="0.5"
+           id="rect14" />
+        <rect
+           x="12"
+           y="198"
+           width="116"
+           height="30"
+           rx="2"
+           fill="#FFFFFF"
+           stroke-width="1.5"
+           id="rect15" />
+        <rect
+           x="104"
+           y="204"
+           width="18"
+           height="18"
+           rx="9"
+           fill="#8f4f23"
+           stroke="none"
+           id="rect16" />
+        <!-- Home button -->
+        <rect
+           x="60"
+           y="244"
+           width="20"
+           height="3"
+           rx="1.5"
+           fill="#FFFFFF"
+           stroke="none"
+           id="rect17" />
+        <!-- Camera -->
+        <circle
+           cx="70"
+           cy="3"
+           r="3"
+           fill="#FFFFFF"
+           stroke="none"
+           id="circle17" />
+      </g>
+      <!-- Tablet left -->
+      <g
+         transform="translate(40,100)"
+         id="g30">
+        <rect
+           x="0"
+           y="0"
+           width="150"
+           height="200"
+           rx="8"
+           fill="#FFFFFF"
+           stroke-width="3"
+           id="rect18" />
+        <rect
+           x="6"
+           y="6"
+           width="138"
+           height="185"
+           rx="6"
+           fill="#1A1A1A"
+           stroke-width="2"
+           id="rect19" />
+        <rect
+           x="12"
+           y="12"
+           width="126"
+           height="16"
+           rx="3"
+           fill="#8f4f23"
+           stroke="none"
+           id="rect20" />
+        <rect
+           x="12"
+           y="34"
+           width="126"
+           height="70"
+           rx="3"
+           fill="#FFFFFF"
+           stroke-width="1.5"
+           id="rect21" />
+        <rect
+           x="18"
+           y="40"
+           width="60"
+           height="25"
+           rx="2"
+           fill="#8f4f23"
+           stroke="none"
+           opacity="0.4"
+           id="rect22" />
+        <rect
+           x="84"
+           y="40"
+           width="48"
+           height="25"
+           rx="2"
+           fill="#8f4f23"
+           stroke="none"
+           opacity="0.2"
+           id="rect23" />
+        <rect
+           x="18"
+           y="72"
+           width="114"
+           height="6"
+           rx="1"
+           fill="#8f4f23"
+           stroke="none"
+           opacity="0.3"
+           id="rect24" />
+        <rect
+           x="18"
+           y="84"
+           width="80"
+           height="4"
+           rx="1"
+           fill="#8f4f23"
+           stroke="none"
+           opacity="0.2"
+           id="rect25" />
+        <rect
+           x="12"
+           y="110"
+           width="126"
+           height="70"
+           rx="3"
+           fill="#FFFFFF"
+           stroke-width="1.5"
+           id="rect26" />
+        <rect
+           x="18"
+           y="116"
+           width="40"
+           height="25"
+           rx="2"
+           fill="#8f4f23"
+           stroke="none"
+           opacity="0.4"
+           id="rect27" />
+        <rect
+           x="64"
+           y="116"
+           width="68"
+           height="25"
+           rx="2"
+           fill="#8f4f23"
+           stroke="none"
+           opacity="0.2"
+           id="rect28" />
+        <rect
+           x="18"
+           y="148"
+           width="114"
+           height="6"
+           rx="1"
+           fill="#8f4f23"
+           stroke="none"
+           opacity="0.3"
+           id="rect29" />
+        <rect
+           x="18"
+           y="160"
+           width="60"
+           height="4"
+           rx="1"
+           fill="#8f4f23"
+           stroke="none"
+           opacity="0.2"
+           id="rect30" />
+        <!-- Camera -->
+        <circle
+           cx="75"
+           cy="3"
+           r="2"
+           fill="#FFFFFF"
+           stroke="none"
+           id="circle30" />
+      </g>
+      <!-- Color palette -->
+      <g
+         transform="translate(40,350)"
+         id="g35">
+        <path
+           d="M 30,5 C 45.057557,-14.956703 85,-10 95,10 105,30 97.024969,48.287868 65,50 53.195979,50.631071 52.675208,22.973935 36.861881,37.919814 27.279553,46.976498 21.795244,15.874266 30,5 Z"
+           fill="#ffffff"
+           stroke-width="3"
+           id="path30"
+           sodipodi:nodetypes="sssss" />
+        <circle
+           cx="51.373425"
+           cy="18.039082"
+           r="7"
+           fill="#8f4f23"
+           stroke-width="2"
+           id="circle31" />
+        <circle
+           cx="66.98394"
+           cy="4.9143324"
+           r="6"
+           fill="#1a1a1a"
+           stroke-width="2"
+           id="circle32" />
+        <circle
+           cx="76.017258"
+           cy="36.052349"
+           r="5"
+           fill="#8f4f23"
+           stroke-width="1.5"
+           id="circle33" />
+        <circle
+           cx="84.511604"
+           cy="18"
+           r="5"
+           fill="#1a1a1a"
+           stroke-width="1.5"
+           id="circle34" />
+        <circle
+           cx="68.947655"
+           cy="21.389643"
+           r="4"
+           fill="#8f4f23"
+           stroke="none"
+           id="circle35" />
+      </g>
+      <!-- Pen / stylus -->
+      <g
+         transform="translate(440,70)"
+         id="g37">
+        <rect
+           x="0"
+           y="20"
+           width="10"
+           height="70"
+           rx="2"
+           fill="#FFFFFF"
+           stroke-width="2.5"
+           id="rect35" />
+        <polygon
+           points="-2,20 12,20 5,5"
+           fill="#8f4f23"
+           stroke-width="2.5"
+           id="polygon35" />
+        <path
+           d="M5,5 L5,-8"
+           stroke-width="2.5"
+           fill="none"
+           id="path35" />
+        <line
+           x1="0"
+           y1="35"
+           x2="10"
+           y2="35"
+           stroke-width="1.5"
+           fill="none"
+           opacity="0.5"
+           id="line35" />
+        <line
+           x1="0"
+           y1="50"
+           x2="10"
+           y2="50"
+           stroke-width="1.5"
+           fill="none"
+           opacity="0.4"
+           id="line36" />
+        <line
+           x1="0"
+           y1="65"
+           x2="10"
+           y2="65"
+           stroke-width="1.5"
+           fill="none"
+           opacity="0.3"
+           id="line37" />
+      </g>
+      <!-- Ruler -->
+      <g
+         transform="translate(430,200)"
+         id="g45">
+        <rect
+           x="0"
+           y="0"
+           width="130"
+           height="18"
+           rx="3"
+           fill="#FFFFFF"
+           stroke-width="2.5"
+           id="rect37" />
+        <line
+           x1="12"
+           y1="0"
+           x2="12"
+           y2="18"
+           stroke-width="1.5"
+           fill="none"
+           id="line38" />
+        <line
+           x1="32"
+           y1="0"
+           x2="32"
+           y2="10"
+           stroke-width="1.5"
+           fill="none"
+           id="line39" />
+        <line
+           x1="52"
+           y1="0"
+           x2="52"
+           y2="18"
+           stroke-width="1.5"
+           fill="none"
+           id="line40" />
+        <line
+           x1="72"
+           y1="0"
+           x2="72"
+           y2="10"
+           stroke-width="1.5"
+           fill="none"
+           id="line41" />
+        <line
+           x1="92"
+           y1="0"
+           x2="92"
+           y2="18"
+           stroke-width="1.5"
+           fill="none"
+           id="line42" />
+        <line
+           x1="112"
+           y1="0"
+           x2="112"
+           y2="10"
+           stroke-width="1.5"
+           fill="none"
+           id="line43" />
+        <text
+           x="5"
+           y="14"
+           font-size="7"
+           fill="#1A1A1A"
+           stroke="none"
+           id="text43">0</text>
+        <text
+           x="45"
+           y="14"
+           font-size="7"
+           fill="#1A1A1A"
+           stroke="none"
+           id="text44">2</text>
+        <text
+           x="85"
+           y="14"
+           font-size="7"
+           fill="#1A1A1A"
+           stroke="none"
+           id="text45">4</text>
+      </g>
+      <!-- Color swatches panel -->
+      <g
+         transform="translate(430,260)"
+         id="g50">
+        <rect
+           x="0.025369218"
+           y="0.025369218"
+           width="136.9278"
+           height="27.949261"
+           rx="4"
+           fill="#ffffff"
+           stroke-width="2"
+           id="rect45"
+           ry="3.9999998" />
+        <rect
+           x="6"
+           y="4"
+           width="20"
+           height="20"
+           rx="3"
+           fill="#8f4f23"
+           stroke-width="1.5"
+           id="rect46" />
+        <rect
+           x="32"
+           y="4"
+           width="20"
+           height="20"
+           rx="3"
+           fill="#1A1A1A"
+           stroke-width="1.5"
+           id="rect47" />
+        <rect
+           x="58"
+           y="4"
+           width="20"
+           height="20"
+           rx="3"
+           fill="#FFFFFF"
+           stroke-width="1.5"
+           id="rect48" />
+        <rect
+           x="84"
+           y="4"
+           width="20"
+           height="20"
+           rx="3"
+           fill="#8f4f23"
+           stroke-width="1.5"
+           opacity="0.7"
+           id="rect49" />
+        <rect
+           x="110.12988"
+           y="4.1298842"
+           width="19.52244"
+           height="19.740232"
+           rx="3"
+           fill="#1A1A1A"
+           stroke-width="1.75977"
+           opacity="0.3"
+           id="rect50"
+           style="opacity:1;fill:#b3b3b3;stroke:#020202;stroke-opacity:1"
+           ry="3" />
+      </g>
+      <!-- Screens/mockups floating -->
+      <g
+         transform="translate(440,340)"
+         id="g56">
+        <rect
+           x="0"
+           y="0"
+           width="80"
+           height="120"
+           rx="5"
+           fill="#FFFFFF"
+           stroke-width="2"
+           id="rect51" />
+        <rect
+           x="4"
+           y="4"
+           width="72"
+           height="110"
+           rx="3"
+           fill="#1A1A1A"
+           stroke="none"
+           id="rect52" />
+        <rect
+           x="10"
+           y="10"
+           width="60"
+           height="10"
+           rx="2"
+           fill="#8f4f23"
+           stroke="none"
+           id="rect53" />
+        <rect
+           x="10"
+           y="26"
+           width="60"
+           height="40"
+           rx="2"
+           fill="#FFFFFF"
+           stroke-width="1"
+           id="rect54" />
+        <rect
+           x="10"
+           y="72"
+           width="60"
+           height="25"
+           rx="2"
+           fill="#FFFFFF"
+           stroke-width="1"
+           id="rect55" />
+        <rect
+           x="34"
+           y="108"
+           width="12"
+           height="3"
+           rx="1.5"
+           fill="#FFFFFF"
+           stroke="none"
+           id="rect56" />
+      </g>
+      <!-- Arrow from palette to phone -->
+      <path
+         d="m 139.28123,360.10961 c 29.76563,-16.07609 56.22397,-40.19022 85.9896,-80.38044"
+         stroke-width="1.45833"
+         stroke-dasharray="5, 4"
+         opacity="0.3"
+         id="path56" />
+      <path
+         d="M 113.32421,340.82591 C 99.309098,317.1885 83.291823,306.68299 57.263753,301.43023"
+         stroke-width="0.917252"
+         stroke-dasharray="5, 4"
+         opacity="0.3"
+         id="path57" />
+      <!-- Decorative -->
+      <circle
+         cx="30"
+         cy="30"
+         r="3"
+         fill="#1A1A1A"
+         stroke="none"
+         opacity="0.3"
+         id="circle57" />
+      <circle
+         cx="570"
+         cy="30"
+         r="3"
+         fill="#1A1A1A"
+         stroke="none"
+         opacity="0.3"
+         id="circle58" />
+      <circle
+         cx="30"
+         cy="620"
+         r="3"
+         fill="#1A1A1A"
+         stroke="none"
+         opacity="0.3"
+         id="circle59" />
+      <circle
+         cx="570"
+         cy="620"
+         r="3"
+         fill="#1A1A1A"
+         stroke="none"
+         opacity="0.3"
+         id="circle60" />
+      <line
+         x1="30"
+         y1="15"
+         x2="570"
+         y2="15"
+         stroke-width="1"
+         stroke-dasharray="6,8"
+         opacity="0.2"
+         id="line60" />
+      <!-- Star -->
+      <polygon
+         points="520,530 522,540 532,540 524,546 527,556 520,550 513,556 516,546 508,540 518,540"
+         fill="#8f4f23"
+         stroke="none"
+         id="polygon60" />
+      <!-- Dots -->
+      <circle
+         cx="160"
+         cy="570"
+         r="3"
+         fill="#1A1A1A"
+         stroke="none"
+         opacity="0.3"
+         id="circle61" />
+      <circle
+         cx="190"
+         cy="575"
+         r="3"
+         fill="#1A1A1A"
+         stroke="none"
+         opacity="0.25"
+         id="circle62" />
+      <circle
+         cx="220"
+         cy="570"
+         r="3"
+         fill="#1A1A1A"
+         stroke="none"
+         opacity="0.3"
+         id="circle63" />
+      <circle
+         cx="370"
+         cy="570"
+         r="3"
+         fill="#1A1A1A"
+         stroke="none"
+         opacity="0.3"
+         id="circle64" />
+      <circle
+         cx="400"
+         cy="575"
+         r="3"
+         fill="#1A1A1A"
+         stroke="none"
+         opacity="0.25"
+         id="circle65" />
+      <circle
+         cx="430"
+         cy="570"
+         r="3"
+         fill="#1A1A1A"
+         stroke="none"
+         opacity="0.3"
+         id="circle66" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 600 650"
+   version="1.1"
+   id="parse-svg">
+  <defs id="defs1" />
+  <g
+     id="Page-1"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+    <g id="parse-all" fill-rule="nonzero" stroke="#1A1A1A">
+
+      <!-- Background decorative grid lines -->
+      <line x1="30" y1="30" x2="570" y2="30" stroke-width="2" stroke-dasharray="8,12" opacity="0.3" />
+      <line x1="30" y1="620" x2="570" y2="620" stroke-width="2" stroke-dasharray="8,12" opacity="0.3" />
+
+      <!-- Database / Server rack - large left side -->
+      <rect x="60" y="100" width="200" height="260" rx="12" fill="#FFFFFF" stroke-width="3" />
+      <!-- Server rack inner lines -->
+      <line x1="80" y1="140" x2="240" y2="140" stroke-width="3" fill="#1A1A1A" />
+      <line x1="80" y1="200" x2="240" y2="200" stroke-width="3" fill="#1A1A1A" />
+      <line x1="80" y1="260" x2="240" y2="260" stroke-width="3" fill="#1A1A1A" />
+      <line x1="80" y1="320" x2="240" y2="320" stroke-width="3" fill="#1A1A1A" />
+
+      <!-- Server rack top section -->
+      <rect x="80" y="105" width="160" height="30" rx="4" fill="#8f4f23" stroke-width="2" />
+      <rect x="85" y="110" width="20" height="8" rx="2" fill="#FFFFFF" stroke="none" />
+      <rect x="110" y="110" width="20" height="8" rx="2" fill="#FFFFFF" stroke="none" />
+      <circle cx="220" cy="120" r="6" fill="#1A1A1A" stroke="none" />
+
+      <!-- Server slots -->
+      <rect x="85" y="148" width="50" height="40" rx="2" fill="#1A1A1A" stroke-width="2" />
+      <rect x="145" y="148" width="50" height="40" rx="2" fill="#8f4f23" stroke-width="2" />
+      <rect x="85" y="208" width="150" height="40" rx="2" fill="#1A1A1A" stroke-width="2" />
+      <rect x="85" y="268" width="150" height="40" rx="2" fill="#8f4f23" stroke-width="2" />
+
+      <!-- Server data indicators -->
+      <circle cx="100" cy="228" r="4" fill="#FFFFFF" stroke="none" />
+      <circle cx="100" cy="288" r="4" fill="#FFFFFF" stroke="none" />
+      <circle cx="100" cy="168" r="4" fill="#FFFFFF" stroke="none" />
+
+      <!-- Database cylinder below server -->
+      <ellipse cx="160" cy="440" rx="70" ry="22" fill="#8f4f23" stroke-width="3" />
+      <path d="M90,440 L90,510 C90,524 121,535 160,535 C199,535 230,524 230,510 L230,440" fill="#FFFFFF" stroke-width="3" />
+      <ellipse cx="160" cy="510" rx="70" ry="22" fill="none" stroke-width="3" />
+      <path d="M100,470 C100,484 127,495 160,495 C193,495 220,484 220,470" fill="none" stroke-width="2.5" stroke-dasharray="5,4" />
+      <path d="M95,490 C95,504 124,515 160,515 C196,515 225,504 225,490" fill="none" stroke-width="2" stroke-dasharray="4,4" opacity="0.6" />
+
+      <!-- Connection arc from server to database -->
+      <path d="M160,360 C160,390 160,410 160,418" stroke-width="3" fill="none" />
+      <polygon points="154,415 160,430 166,415" fill="#1A1A1A" stroke="none" />
+
+      <!-- Arrow from database to right -->
+      <line x1="235" y1="488" x2="310" y2="488" stroke-width="3" fill="none" />
+      <polygon points="305,480 320,488 305,496" fill="#1A1A1A" stroke="none" />
+
+      <!-- Parsing process box -->
+      <rect x="315" y="440" width="100" height="95" rx="10" fill="#FFFFFF" stroke-width="3" />
+      <text x="335" y="470" font-family="Arial" font-size="12" font-weight="bold" fill="#1A1A1A" stroke="none" text-anchor="start">DATA</text>
+      <text x="335" y="488" font-family="Arial" font-size="12" font-weight="bold" fill="#1A1A1A" stroke="none" text-anchor="start">PARSE</text>
+      <!-- Gear icon inside -->
+      <g transform="translate(365,510)">
+        <circle cx="0" cy="0" r="14" fill="#8f4f23" stroke-width="2.5" />
+        <path d="M-2,-14 L-2,-10 M2,-14 L2,-10 M-2,10 L-2,14 M2,10 L2,14 M-14,-2 L-10,-2 M-14,2 L-10,2 M10,-2 L14,-2 M10,2 L14,2" stroke-width="3" fill="none" />
+        <circle cx="0" cy="0" r="5" fill="#FFFFFF" stroke-width="2" />
+      </g>
+
+      <!-- Arrow right from parse box to documents -->
+      <line x1="420" y1="488" x2="475" y2="488" stroke-width="3" fill="none" />
+      <polygon points="470,480 485,488 470,496" fill="#1A1A1A" stroke="none" />
+
+      <!-- Documents stack right side -->
+      <rect x="480" y="430" width="90" height="115" rx="3" fill="#FFFFFF" stroke-width="3" transform="rotate(3,525,487)" />
+      <rect x="475" y="425" width="90" height="115" rx="3" fill="#FFFFFF" stroke-width="3" />
+      <!-- Lines on top document -->
+      <line x1="490" y1="445" x2="545" y2="445" stroke-width="2.5" fill="none" />
+      <line x1="490" y1="458" x2="540" y2="458" stroke-width="2.5" fill="none" />
+      <line x1="490" y1="471" x2="535" y2="471" stroke-width="2.5" fill="none" />
+      <line x1="490" y1="484" x2="545" y2="484" stroke-width="2" fill="none" opacity="0.6" />
+      <line x1="490" y1="494" x2="530" y2="494" stroke-width="2" fill="none" opacity="0.5" />
+
+      <!-- Charts / graphs above documents -->
+      <!-- Bar chart -->
+      <g transform="translate(480,340)">
+        <rect x="5" y="40" width="22" height="50" rx="2" fill="#8f4f23" stroke-width="2.5" />
+        <rect x="35" y="20" width="22" height="70" rx="2" fill="#FFFFFF" stroke-width="2.5" />
+        <rect x="65" y="50" width="22" height="40" rx="2" fill="#8f4f23" stroke-width="2.5" />
+        <line x1="0" y1="90" x2="95" y2="90" stroke-width="2.5" fill="none" />
+        <rect x="90" y="60" width="6" height="30" rx="1" fill="#1A1A1A" stroke="none" />
+      </g>
+
+      <!-- Arrow from chart area down to database -->
+      <path d="M530,400 C530,400 530,410 525,425" stroke-width="2" fill="none" stroke-dasharray="4,3" />
+
+      <!-- Decorative elements - small circles scattered -->
+      <circle cx="280" cy="180" r="4" fill="#1A1A1A" stroke="none" />
+      <circle cx="300" cy="200" r="3" fill="#1A1A1A" stroke="none" />
+      <circle cx="270" cy="220" r="5" fill="#1A1A1A" stroke="none" />
+      <circle cx="290" cy="240" r="3" fill="#1A1A1A" stroke="none" />
+
+      <!-- Small magnifying glass -->
+      <g transform="translate(320,150)">
+        <circle cx="0" cy="0" r="18" fill="none" stroke-width="3" />
+        <line x1="14" y1="14" x2="28" y2="28" stroke-width="4" fill="none" />
+        <line x1="8" y1="-8" x2="0" y2="-8" stroke-width="2.5" fill="none" />
+        <line x1="0" y1="-12" x2="0" y2="-4" stroke-width="2.5" fill="none" />
+      </g>
+
+      <!-- Curved data flow line from magnifier to server -->
+      <path d="M340,175 C360,200 350,260 300,300 C270,325 250,345 240,365" stroke-width="2" fill="none" stroke-dasharray="6,4" />
+
+      <!-- Small database icon top right -->
+      <g transform="translate(490,170)">
+        <ellipse cx="0" cy="0" rx="25" ry="8" fill="#8f4f23" stroke-width="2.5" />
+        <path d="M-25,0 L-25,25 C-25,33 -14,40 0,40 C14,40 25,33 25,25 L25,0" fill="#FFFFFF" stroke-width="2.5" />
+        <ellipse cx="0" cy="25" rx="25" ry="8" fill="none" stroke-width="2.5" />
+        <path d="M-20,10 C-20,18 -11,24 0,24 C11,24 20,18 20,10" fill="none" stroke-width="1.5" stroke-dasharray="4,3" />
+      </g>
+
+      <!-- Arrow from small database to stack -->
+      <line x1="518" y1="210" x2="518" y2="290" stroke-width="2" fill="none" stroke-dasharray="4,3" />
+
+      <!-- Decorative stars/asterisks -->
+      <g transform="translate(80,60)" fill="#1A1A1A" stroke="none">
+        <text font-family="Arial" font-size="14" text-anchor="middle">&#9733;</text>
+      </g>
+      <g transform="translate(470,580)" fill="#1A1A1A" stroke="none">
+        <text font-family="Arial" font-size="12" text-anchor="middle">&#9733;</text>
+      </g>
+
+      <!-- Horizontal decorative lines -->
+      <line x1="50" y1="570" x2="250" y2="570" stroke-width="2" fill="none" opacity="0.4" />
+      <line x1="350" y1="570" x2="550" y2="570" stroke-width="2" fill="none" opacity="0.4" />
+
+      <!-- Dots pattern bottom -->
+      <circle cx="70" cy="580" r="3" fill="#1A1A1A" stroke="none" opacity="0.5" />
+      <circle cx="90" cy="580" r="3" fill="#1A1A1A" stroke="none" opacity="0.5" />
+      <circle cx="110" cy="580" r="3" fill="#1A1A1A" stroke="none" opacity="0.5" />
+      <circle cx="390" cy="580" r="3" fill="#1A1A1A" stroke="none" opacity="0.5" />
+      <circle cx="410" cy="580" r="3" fill="#1A1A1A" stroke="none" opacity="0.5" />
+      <circle cx="430" cy="580" r="3" fill="#1A1A1A" stroke="none" opacity="0.5" />
+
+      <!-- File folder icon -->
+      <g transform="translate(380,220)">
+        <path d="M5,0 L20,0 L28,10 L50,10 L50,45 L5,45 Z" fill="none" stroke-width="2.5" />
+        <path d="M5,10 L50,10" stroke-width="2.5" fill="none" />
+        <line x1="18" y1="22" x2="42" y2="22" stroke-width="2" fill="none" opacity="0.7" />
+        <line x1="18" y1="32" x2="38" y2="32" stroke-width="2" fill="none" opacity="0.5" />
+      </g>
+
+      <!-- Arrow from folder to parse box -->
+      <path d="M415,270 C415,310 410,400 410,435" stroke-width="2" fill="none" stroke-dasharray="4,3" />
+
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,1049 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 600 650"
+   version="1.1"
+   id="design-svg"
+   sodipodi:docname="design.svg"
+   inkscape:version="1.4.4 (dcaf3e7, 2026-05-05)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs87" />
+  <sodipodi:namedview
+     id="namedview87"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.88660312"
+     inkscape:cx="128.58064"
+     inkscape:cy="309.60866"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g87" />
+  <g
+     stroke="#1A1A1A"
+     fill="none"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="g87">
+    <g
+       id="design-all"
+       fill-rule="nonzero">
+      <!-- ===== Color palette large ===== -->
+      <g
+         transform="translate(40,50)"
+         id="g6">
+        <path
+           d="M 42.819751,15.639502 C 48.403394,-12.704472 84.780784,-2.8118876 98.665676,9.4360498 110.28828,19.688409 120,40 110,65 100,90 75,110 45,100 15,90 0,60 10,35 20,10 43.81678,32.970854 42.819751,15.639502 Z"
+           fill="#ffffff"
+           stroke-width="3"
+           id="path1"
+           sodipodi:nodetypes="cssssc" />
+        <circle
+           cx="35"
+           cy="40"
+           r="8"
+           fill="#8f4f23"
+           stroke-width="2"
+           id="circle1" />
+        <circle
+           cx="65"
+           cy="55"
+           r="8"
+           fill="#1A1A1A"
+           stroke-width="2"
+           id="circle2" />
+        <circle
+           cx="50"
+           cy="75"
+           r="6"
+           fill="#8f4f23"
+           stroke-width="1.5"
+           id="circle3" />
+        <circle
+           cx="85"
+           cy="30"
+           r="7"
+           fill="#1A1A1A"
+           stroke-width="1.5"
+           id="circle4" />
+        <circle
+           cx="25"
+           cy="65"
+           r="6"
+           fill="#8f4f23"
+           stroke="none"
+           id="circle5" />
+        <!-- Palette hole -->
+        <circle
+           cx="65"
+           cy="85"
+           r="5"
+           fill="none"
+           stroke-width="2.5"
+           id="circle6" />
+      </g>
+      <!-- ===== Paint brush ===== -->
+      <g
+         transform="translate(200,55)"
+         id="g9">
+        <rect
+           x="-2"
+           y="55"
+           width="14"
+           height="25"
+           rx="3"
+           fill="#8f4f23"
+           stroke-width="2.5"
+           id="rect6" />
+        <path
+           d="M-4,55 L14,55 L18,22 C18,16 10,10 5,10 C0,10 -8,16 -8,22 Z"
+           fill="#FFFFFF"
+           stroke-width="2.5"
+           id="path6" />
+        <path
+           d="M2,22 L2,35"
+           stroke-width="2"
+           fill="none"
+           stroke="#8f4f23"
+           id="path7" />
+        <path
+           d="M10,24 L10,38"
+           stroke-width="2"
+           fill="none"
+           stroke="#8f4f23"
+           id="path8" />
+      </g>
+      <!-- ===== Display / iMac with website layout preview ===== -->
+      <g
+         transform="translate(260,60)"
+         id="g27">
+        <!-- Screen -->
+        <rect
+           x="0"
+           y="0"
+           width="290"
+           height="200"
+           rx="12"
+           fill="#FFFFFF"
+           stroke-width="3"
+           id="rect9" />
+        <!-- Inner display -->
+        <rect
+           x="12"
+           y="12"
+           width="266"
+           height="170"
+           rx="6"
+           fill="#1A1A1A"
+           stroke-width="2"
+           id="rect10" />
+        <!-- Header -->
+        <rect
+           x="18"
+           y="18"
+           width="254"
+           height="20"
+           rx="3"
+           fill="#8f4f23"
+           stroke-width="2"
+           id="rect11" />
+        <!-- Menu items -->
+        <rect
+           x="22"
+           y="23"
+           width="30"
+           height="8"
+           rx="2"
+           fill="#FFFFFF"
+           stroke="none"
+           id="rect12" />
+        <rect
+           x="58"
+           y="23"
+           width="30"
+           height="8"
+           rx="2"
+           fill="#FFFFFF"
+           stroke="none"
+           opacity="0.6"
+           id="rect13" />
+        <rect
+           x="94"
+           y="23"
+           width="40"
+           height="8"
+           rx="2"
+           fill="#FFFFFF"
+           stroke="none"
+           opacity="0.4"
+           id="rect14" />
+        <!-- Hero section -->
+        <rect
+           x="18"
+           y="44"
+           width="254"
+           height="55"
+           rx="2"
+           fill="#FFFFFF"
+           stroke-width="2"
+           id="rect15" />
+        <rect
+           x="24"
+           y="50"
+           width="120"
+           height="10"
+           rx="2"
+           fill="#8f4f23"
+           stroke="none"
+           opacity="0.6"
+           id="rect16" />
+        <rect
+           x="24"
+           y="64"
+           width="200"
+           height="6"
+           rx="1"
+           fill="#8f4f23"
+           stroke="none"
+           opacity="0.3"
+           id="rect17" />
+        <rect
+           x="24"
+           y="74"
+           width="60"
+           height="8"
+           rx="2"
+           fill="#8f4f23"
+           stroke="none"
+           opacity="0.4"
+           id="rect18" />
+        <!-- Gallery grid -->
+        <rect
+           x="18"
+           y="105"
+           width="80"
+           height="50"
+           rx="2"
+           fill="#FFFFFF"
+           stroke-width="2"
+           id="rect19" />
+        <rect
+           x="104"
+           y="105"
+           width="80"
+           height="50"
+           rx="2"
+           fill="#FFFFFF"
+           stroke-width="2"
+           id="rect20" />
+        <rect
+           x="190"
+           y="105"
+           width="82"
+           height="50"
+           rx="2"
+           fill="#FFFFFF"
+           stroke-width="2"
+           id="rect21" />
+        <rect
+           x="24"
+           y="112"
+           width="68"
+           height="20"
+           rx="1"
+           fill="#8f4f23"
+           stroke="none"
+           opacity="0.4"
+           id="rect22" />
+        <rect
+           x="110"
+           y="112"
+           width="68"
+           height="20"
+           rx="1"
+           fill="#8f4f23"
+           stroke="none"
+           opacity="0.5"
+           id="rect23" />
+        <rect
+           x="196"
+           y="112"
+           width="70"
+           height="20"
+           rx="1"
+           fill="#8f4f23"
+           stroke="none"
+           opacity="0.4"
+           id="rect24" />
+        <!-- Footer -->
+        <rect
+           x="18"
+           y="160"
+           width="254"
+           height="12"
+           rx="2"
+           fill="#FFFFFF"
+           stroke-width="2"
+           id="rect25" />
+        <!-- Stand -->
+        <rect
+           x="120"
+           y="200"
+           width="50"
+           height="12"
+           rx="3"
+           fill="#FFFFFF"
+           stroke-width="2.5"
+           id="rect26" />
+        <rect
+           x="85"
+           y="212"
+           width="120"
+           height="8"
+           rx="4"
+           fill="#FFFFFF"
+           stroke-width="2.5"
+           id="rect27" />
+        <!-- Webcam -->
+        <circle
+           cx="145"
+           cy="-4"
+           r="3"
+           fill="#8f4f23"
+           stroke-width="2"
+           id="circle27" />
+      </g>
+      <!-- ===== Ruler tool ===== -->
+      <g
+         transform="translate(40,180)"
+         id="g39">
+        <rect
+           x="0"
+           y="0"
+           width="180"
+           height="25"
+           rx="4"
+           fill="#FFFFFF"
+           stroke-width="2.5"
+           id="rect28" />
+        <line
+           x1="15"
+           y1="0"
+           x2="15"
+           y2="25"
+           stroke-width="1.5"
+           fill="none"
+           id="line28" />
+        <line
+           x1="35"
+           y1="0"
+           x2="35"
+           y2="12"
+           stroke-width="1.5"
+           fill="none"
+           id="line29" />
+        <line
+           x1="55"
+           y1="0"
+           x2="55"
+           y2="25"
+           stroke-width="1.5"
+           fill="none"
+           id="line30" />
+        <line
+           x1="75"
+           y1="0"
+           x2="75"
+           y2="12"
+           stroke-width="1.5"
+           fill="none"
+           id="line31" />
+        <line
+           x1="95"
+           y1="0"
+           x2="95"
+           y2="25"
+           stroke-width="1.5"
+           fill="none"
+           id="line32" />
+        <line
+           x1="115"
+           y1="0"
+           x2="115"
+           y2="12"
+           stroke-width="1.5"
+           fill="none"
+           id="line33" />
+        <line
+           x1="135"
+           y1="0"
+           x2="135"
+           y2="25"
+           stroke-width="1.5"
+           fill="none"
+           id="line34" />
+        <line
+           x1="155"
+           y1="0"
+           x2="155"
+           y2="12"
+           stroke-width="1.5"
+           fill="none"
+           id="line35" />
+        <text
+           x="8"
+           y="18"
+           font-size="8"
+           fill="#1A1A1A"
+           stroke="none"
+           id="text35">0</text>
+        <text
+           x="48"
+           y="18"
+           font-size="8"
+           fill="#1A1A1A"
+           stroke="none"
+           id="text36"
+           style="fill-rule:nonzero;-inkscape-font-specification:'sans-serif, Normal';font-family:sans-serif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:8px;font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#1a1a1a;stroke:none"><tspan
+             sodipodi:role="line"
+             id="tspan88">2</tspan><tspan
+             sodipodi:role="line"
+             id="tspan89"></tspan></text>
+        <text
+           x="88"
+           y="18"
+           font-size="8"
+           fill="#1A1A1A"
+           stroke="none"
+           id="text37">4</text>
+        <text
+           x="128"
+           y="18"
+           font-size="8"
+           fill="#1A1A1A"
+           stroke="none"
+           id="text38">6</text>
+        <text
+           x="168"
+           y="18"
+           font-size="8"
+           fill="#1A1A1A"
+           stroke="none"
+           id="text39">8</text>
+      </g>
+      <!-- ===== Color swatches panel ===== -->
+      <g
+         transform="translate(40,255)"
+         id="g44">
+        <rect
+           x="0"
+           y="0"
+           width="180"
+           height="35"
+           rx="5"
+           fill="#FFFFFF"
+           stroke-width="2"
+           id="rect39" />
+        <rect
+           x="8"
+           y="5"
+           width="25"
+           height="25"
+           rx="3"
+           fill="#8f4f23"
+           stroke-width="1.5"
+           id="rect40" />
+        <rect
+           x="40"
+           y="5"
+           width="25"
+           height="25"
+           rx="3"
+           fill="#1A1A1A"
+           stroke-width="1.5"
+           id="rect41" />
+        <rect
+           x="72"
+           y="5"
+           width="25"
+           height="25"
+           rx="3"
+           fill="#FFFFFF"
+           stroke-width="1.5"
+           id="rect42" />
+        <rect
+           x="104"
+           y="5"
+           width="25"
+           height="25"
+           rx="3"
+           fill="#8f4f23"
+           stroke-width="1.5"
+           opacity="0.7"
+           id="rect43" />
+        <rect
+           x="136"
+           y="5"
+           width="25"
+           height="25"
+           rx="3"
+           fill="#1A1A1A"
+           stroke-width="1.5"
+           opacity="0.4"
+           id="rect44" />
+      </g>
+      <!-- ===== Drawing compass ===== -->
+      <g
+         transform="translate(85,360)"
+         id="g48">
+        <line
+           x1="0"
+           y1="0"
+           x2="45"
+           y2="-75"
+           stroke-width="2.5"
+           fill="none"
+           id="line44" />
+        <line
+           x1="0"
+           y1="0"
+           x2="80"
+           y2="-25"
+           stroke-width="2.5"
+           fill="none"
+           id="line45" />
+        <circle
+           cx="0"
+           cy="0"
+           r="6"
+           fill="#8f4f23"
+           stroke-width="2"
+           id="circle45" />
+        <circle
+           cx="80"
+           cy="-25"
+           r="5"
+           fill="#FFFFFF"
+           stroke-width="2"
+           id="circle46" />
+        <circle
+           cx="80"
+           cy="-25"
+           r="2"
+           fill="#8f4f23"
+           stroke="none"
+           id="circle47" />
+        <!-- Arc drawn -->
+        <!-- Arc drawn (larger) -->
+        <path
+           d="m 79.539181,-24.667601 c 6.045063,-20.458722 15.112656,-37.507656 22.668989,-44.32723"
+           stroke-width="0.681013"
+           fill="none"
+           stroke-dasharray="3, 3"
+           opacity="0.5"
+           id="path48" />
+      </g>
+      <!-- ===== Pen tablet / stylus ===== -->
+      <g
+         transform="translate(220,320)"
+         id="g50">
+        <rect
+           x="0"
+           y="10"
+           width="100"
+           height="70"
+           rx="8"
+           fill="#FFFFFF"
+           stroke-width="2.5"
+           id="rect48" />
+        <rect
+           x="12"
+           y="20"
+           width="76"
+           height="50"
+           rx="4"
+           fill="#1A1A1A"
+           stroke-width="1.5"
+           id="rect49" />
+        <!-- Stylus -->
+        <rect
+           x="60"
+           y="-20"
+           width="8"
+           height="30"
+           rx="3"
+           fill="#8f4f23"
+           stroke-width="2"
+           id="rect50" />
+        <circle
+           cx="64"
+           cy="-22"
+           r="5"
+           fill="#FFFFFF"
+           stroke-width="2"
+           id="circle50" />
+        <!-- Stroke on tablet -->
+        <path
+           d="M20,45 Q30,30 50,35 Q70,40 80,50"
+           stroke-width="2"
+           fill="none"
+           stroke="#8f4f23"
+           id="path50" />
+      </g>
+      <!-- ===== Protractor ===== -->
+      <g
+         transform="translate(360,320)"
+         id="g56">
+        <path
+           d="M0,40 L0,0 C0,-40 80,-40 80,0 L80,40"
+           fill="#FFFFFF"
+           stroke-width="2.5"
+           id="path51" />
+        <path
+           d="M5,35 L5,5"
+           stroke-width="1.5"
+           fill="none"
+           opacity="0.3"
+           id="path52" />
+        <path
+           d="M20,38 L20,2"
+           stroke-width="1.5"
+           fill="none"
+           opacity="0.3"
+           id="path53" />
+        <path
+           d="M40,40 L40,0"
+           stroke-width="1.5"
+           fill="none"
+           opacity="0.3"
+           id="path54" />
+        <path
+           d="M60,38 L60,2"
+           stroke-width="1.5"
+           fill="none"
+           opacity="0.3"
+           id="path55" />
+        <path
+           d="M75,35 L75,5"
+           stroke-width="1.5"
+           fill="none"
+           opacity="0.3"
+           id="path56" />
+        <!-- Angle line -->
+      </g>
+      <!-- ===== Phone mockup / mobile layout ===== -->
+      <g
+         transform="translate(345,406)"
+         id="g62">
+        <rect
+           x="0"
+           y="0"
+           width="65"
+           height="110"
+           rx="8"
+           fill="#FFFFFF"
+           stroke-width="2.5"
+           id="rect56" />
+        <rect
+           x="8"
+           y="8"
+           width="49"
+           height="85"
+           rx="3"
+           fill="#1A1A1A"
+           stroke-width="1.5"
+           id="rect57" />
+        <rect
+           x="12"
+           y="12"
+           width="41"
+           height="8"
+           rx="2"
+           fill="#8f4f23"
+           stroke="none"
+           id="rect58" />
+        <rect
+           x="12"
+           y="24"
+           width="41"
+           height="30"
+           rx="1"
+           fill="#FFFFFF"
+           stroke-width="1.5"
+           id="rect59" />
+        <rect
+           x="12"
+           y="58"
+           width="41"
+           height="8"
+           rx="1"
+           fill="#8f4f23"
+           stroke="none"
+           opacity="0.4"
+           id="rect60" />
+        <rect
+           x="12"
+           y="70"
+           width="30"
+           height="8"
+           rx="1"
+           fill="#8f4f23"
+           stroke="none"
+           opacity="0.3"
+           id="rect61" />
+        <rect
+           x="20"
+           y="95"
+           width="25"
+           height="3"
+           rx="1"
+           fill="#FFFFFF"
+           stroke="none"
+           id="rect62" />
+        <circle
+           cx="56"
+           cy="5"
+           r="2"
+           fill="#FFFFFF"
+           stroke="none"
+           id="circle62" />
+      </g>
+      <!-- ===== Pen ===== -->
+      <g
+         transform="translate(460,370)"
+         id="g67">
+        <rect
+           x="0"
+           y="20"
+           width="10"
+           height="90"
+           rx="2"
+           fill="#FFFFFF"
+           stroke-width="2.5"
+           id="rect63" />
+        <polygon
+           points="-2,20 12,20 5,0"
+           fill="#8f4f23"
+           stroke-width="2.5"
+           id="polygon63" />
+        <path
+           d="M5,0 L5,-8"
+           stroke-width="2.5"
+           fill="none"
+           id="path63" />
+        <line
+           x1="0"
+           y1="35"
+           x2="10"
+           y2="35"
+           stroke-width="1.5"
+           fill="none"
+           id="line63" />
+        <line
+           x1="0"
+           y1="48"
+           x2="10"
+           y2="48"
+           stroke-width="1.5"
+           fill="none"
+           id="line64" />
+        <line
+           x1="0"
+           y1="61"
+           x2="10"
+           y2="61"
+           stroke-width="1.5"
+           fill="none"
+           opacity="0.7"
+           id="line65" />
+        <line
+           x1="0"
+           y1="74"
+           x2="10"
+           y2="74"
+           stroke-width="1.5"
+           fill="none"
+           opacity="0.5"
+           id="line66" />
+        <line
+           x1="0"
+           y1="87"
+           x2="8"
+           y2="87"
+           stroke-width="1.5"
+           fill="none"
+           opacity="0.3"
+           id="line67" />
+      </g>
+      <!-- ===== Eyedropper ===== -->
+      <g
+         transform="translate(525,320)"
+         id="g68">
+        <rect
+           x="0"
+           y="30"
+           width="10"
+           height="30"
+           rx="2"
+           fill="#FFFFFF"
+           stroke-width="2"
+           id="rect67" />
+        <polygon
+           points="-3,30 13,30 13,20 8,10 2,10 -3,20"
+           fill="#FFFFFF"
+           stroke-width="2"
+           id="polygon67" />
+        <circle
+           cx="5"
+           cy="8.6196318"
+           r="4"
+           fill="#8f4f23"
+           stroke="none"
+           id="circle67" />
+        <line
+           x1="5"
+           y1="35"
+           x2="5"
+           y2="55"
+           stroke-width="2"
+           fill="none"
+           id="line68" />
+      </g>
+      <!-- ===== Grid / layout sheet bottom ===== -->
+      <g
+         transform="translate(80,470)"
+         id="g82">
+        <rect
+           x="0"
+           y="0"
+           width="280"
+           height="120"
+           rx="6"
+           fill="#FFFFFF"
+           stroke-width="3"
+           id="rect68" />
+        <!-- Grid lines -->
+        <line
+           x1="15"
+           y1="15"
+           x2="265"
+           y2="15"
+           stroke-width="1.5"
+           stroke-dasharray="4,4"
+           opacity="0.25"
+           id="line69" />
+        <line
+           x1="15"
+           y1="35"
+           x2="265"
+           y2="35"
+           stroke-width="1.5"
+           stroke-dasharray="4,4"
+           opacity="0.25"
+           id="line70" />
+        <line
+           x1="15"
+           y1="55"
+           x2="265"
+           y2="55"
+           stroke-width="1.5"
+           stroke-dasharray="4,4"
+           opacity="0.25"
+           id="line71" />
+        <line
+           x1="15"
+           y1="75"
+           x2="265"
+           y2="75"
+           stroke-width="1.5"
+           stroke-dasharray="4,4"
+           opacity="0.25"
+           id="line72" />
+        <line
+           x1="15"
+           y1="95"
+           x2="265"
+           y2="95"
+           stroke-width="1.5"
+           stroke-dasharray="4,4"
+           opacity="0.25"
+           id="line73" />
+        <line
+           x1="15"
+           y1="15"
+           x2="15"
+           y2="105"
+           stroke-width="1.5"
+           stroke-dasharray="4,4"
+           opacity="0.25"
+           id="line74" />
+        <line
+           x1="80"
+           y1="15"
+           x2="80"
+           y2="105"
+           stroke-width="1.5"
+           stroke-dasharray="4,4"
+           opacity="0.25"
+           id="line75" />
+        <line
+           x1="160"
+           y1="15"
+           x2="160"
+           y2="105"
+           stroke-width="1.5"
+           stroke-dasharray="4,4"
+           opacity="0.25"
+           id="line76" />
+        <line
+           x1="265"
+           y1="15"
+           x2="265"
+           y2="105"
+           stroke-width="1.5"
+           stroke-dasharray="4,4"
+           opacity="0.25"
+           id="line77" />
+        <!-- Column indicators -->
+        <rect
+           x="22"
+           y="22"
+           width="50"
+           height="20"
+           rx="2"
+           fill="none"
+           stroke-width="2"
+           stroke="#8f4f23"
+           id="rect77" />
+        <rect
+           x="85"
+           y="22"
+           width="65"
+           height="20"
+           rx="2"
+           fill="none"
+           stroke-width="2"
+           stroke="#8f4f23"
+           opacity="0.6"
+           id="rect78" />
+        <rect
+           x="165"
+           y="22"
+           width="42"
+           height="20"
+           rx="2"
+           fill="none"
+           stroke-width="2"
+           stroke="#8f4f23"
+           opacity="0.4"
+           id="rect79" />
+        <rect
+           x="22"
+           y="52"
+           width="50"
+           height="35"
+           rx="2"
+           fill="none"
+           stroke-width="2"
+           id="rect80" />
+        <rect
+           x="85"
+           y="52"
+           width="65"
+           height="35"
+           rx="2"
+           fill="none"
+           stroke-width="2"
+           id="rect81" />
+        <rect
+           x="165"
+           y="52"
+           width="42"
+           height="35"
+           rx="2"
+           fill="none"
+           stroke-width="2"
+           id="rect82" />
+      </g>
+      <!-- ===== Connection curves between tools ===== -->
+      <path
+         d="m 125.26419,86.76419 c 32.28182,12.745012 53.80304,21.24169 64.56364,25.49003"
+         stroke-width="2.02838"
+         stroke-dasharray="3, 3"
+         opacity="0.4"
+         id="path82" />
+      <path
+         d="m 310.20004,260.20004 c 0,21.51214 29.83553,43.02427 44.7533,62.3852"
+         stroke-width="1.90007"
+         stroke-dasharray="3, 3"
+         opacity="0.4"
+         id="path83"
+         style="stroke-width:0.9;stroke-dasharray:1.42100043,1.42100043;stroke-dashoffset:0" />
+      <!-- ===== Decorative ===== -->
+      <circle
+         cx="30"
+         cy="30"
+         r="3"
+         fill="#1A1A1A"
+         stroke="none"
+         opacity="0.3"
+         id="circle83" />
+      <circle
+         cx="570"
+         cy="30"
+         r="3"
+         fill="#1A1A1A"
+         stroke="none"
+         opacity="0.3"
+         id="circle84" />
+      <circle
+         cx="30"
+         cy="620"
+         r="3"
+         fill="#1A1A1A"
+         stroke="none"
+         opacity="0.3"
+         id="circle85" />
+      <circle
+         cx="570"
+         cy="620"
+         r="3"
+         fill="#1A1A1A"
+         stroke="none"
+         opacity="0.3"
+         id="circle86" />
+      <line
+         x1="30"
+         y1="15"
+         x2="570"
+         y2="15"
+         stroke-width="1"
+         stroke-dasharray="6,8"
+         opacity="0.2"
+         id="line86" />
+      <!-- Stars -->
+      <polygon
+         points="493,42 505,42 496,49 500,60 490,54 480,60 484,49 475,42 487,42 490,30 "
+         fill="#8f4f23"
+         stroke="none"
+         id="polygon86"
+         transform="translate(-21.994058,-9.0232031)" />
+      <polygon
+         points="130,610 132,618 140,618 134,623 136,630 130,626 124,630 126,623 120,618 128,618"
+         fill="#1A1A1A"
+         stroke="none"
+         opacity="0.5"
+         id="polygon87" />
+    </g>
+  </g>
+</svg>
