@@ -1,9 +1,31 @@
 <?php
 require_once __DIR__ . '/../config.php';
-$pageTitle = 'Разработка Telegram-ботов под ключ — Bobr Studio';
+$pageTitle = 'Разработка Telegram-ботов под ключ — магазины, запись, оплата | Bobr Studio';
 $pageDesc = 'Профессиональная разработка Telegram-ботов под ключ: боты-магазины, запись и бронирование, опросы, интеграции с CRM и 1С, приём оплат. Автоматизация продаж и поддержки 24/7.';
+$ogImage = '/img/svg/girl.svg';
 require_once __DIR__ . '/../includes/header.php';
 ?>
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "BreadcrumbList",
+	"itemListElement": [
+		{ "@type": "ListItem", "position": 1, "name": "Главная", "item": "<?= SITE_URL ?>/" },
+		{ "@type": "ListItem", "position": 2, "name": "Разработка Telegram-ботов", "item": "<?= SITE_URL ?>/telegram-bot" }
+	]
+}
+</script>
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "Service",
+	"name": "Разработка Telegram-ботов под ключ",
+	"description": "Создание Telegram-ботов любой сложности: боты-магазины, запись, опросы, интеграции с CRM и 1С, приём оплат.",
+	"provider": { "@type": "ProfessionalService", "name": "Bobr Studio", "url": "<?= SITE_URL ?>" },
+	"areaServed": "RU",
+	"offers": { "@type": "Offer", "price": "15000", "priceCurrency": "RUB" }
+}
+</script>
 
 	<!-- Hero -->
 	<section class="hero section-light">

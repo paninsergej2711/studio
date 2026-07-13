@@ -12,7 +12,7 @@ require_once __DIR__ . '/../../includes/header.php';
 	"@type": "BreadcrumbList",
 	"itemListElement": [
 		{ "@type": "ListItem", "position": 1, "name": "Главная", "item": "<?= SITE_URL ?>/" },
-		{ "@type": "ListItem", "position": 2, "name": "Интернет магазин", "item": "<?= SITE_URL ?>/dev/internet-magazin" }
+		{ "@type": "ListItem", "position": 2, "name": "Интернет магазин", "item": "<?= SITE_URL ?>/sites/internet-magazin" }
 	]
 }
 </script>

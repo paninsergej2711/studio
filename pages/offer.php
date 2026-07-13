@@ -1,13 +1,25 @@
 <?php
 require_once __DIR__ . '/../config.php';
-$pageTitle = 'Договор-оферта — Bobr Studio';
-$pageDesc = 'Публичная оферта на оказание услуг веб-студии Bobr Studio: условия разработки сайтов, приложений, ботов и продвижения.';
+$pageTitle = 'Договор-оферта на услуги разработки сайтов — Bobr Studio';
+$pageDesc = 'Публичная оферта веб-студии Bobr Studio: условия разработки сайтов, приложений, ботов и продвижения. Порядок расчётов, гарантии, ответственность сторон.';
+$ogImage = '/logo.svg';
+$noindex = true;
 require_once __DIR__ . '/../includes/header.php';
 ?>
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "BreadcrumbList",
+	"itemListElement": [
+		{ "@type": "ListItem", "position": 1, "name": "Главная", "item": "<?= SITE_URL ?>/" },
+		{ "@type": "ListItem", "position": 2, "name": "Договор-оферта", "item": "<?= SITE_URL ?>/offer" }
+	]
+}
+</script>
 
 	<section class="page-hero section-light">
 		<div class="container">
-			<div class="breadcrumb"><a href="/">Главная</a> / Договор-оферта</div>
+			<div class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList"><span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item" href="/"><span itemprop="name">Главная</span></a><meta itemprop="position" content="1"></span> / <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><span itemprop="name">Договор-оферта</span><meta itemprop="position" content="2"></span></div>
 			<h1>Публичная оферта</h1>
 		</div>
 	</section>

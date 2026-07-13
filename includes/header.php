@@ -25,7 +25,10 @@ if (isset($pdo)) {
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="icon" type="image/svg+xml" href="/logo.svg">
+	<meta name="robots" content="<?= isset($noindex) && $noindex ? 'noindex, follow' : 'index, follow' ?>">
+	<meta name="theme-color" content="#8f4f23">
+			<link rel="icon" type="image/svg+xml" href="/logo.svg">
+			<link rel="apple-touch-icon" href="/logo.svg">
 	<title><?= htmlspecialchars($pageTitle) ?></title>
 	<meta name="description" content="<?= htmlspecialchars($pageDesc) ?>">
 	<meta property="og:title" content="<?= htmlspecialchars($pageTitle) ?>">
@@ -33,6 +36,10 @@ if (isset($pdo)) {
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="<?= SITE_URL . htmlspecialchars(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)) ?>">
 	<meta property="og:image" content="<?= isset($ogImage) ? SITE_URL . $ogImage : SITE_URL . '/logo.svg' ?>">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="<?= htmlspecialchars($pageTitle) ?>">
+	<meta name="twitter:description" content="<?= htmlspecialchars($pageDesc) ?>">
+	<meta name="twitter:image" content="<?= isset($ogImage) ? SITE_URL . $ogImage : SITE_URL . '/logo.svg' ?>">
 	<link rel="canonical" href="<?= SITE_URL . htmlspecialchars(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH)) ?>">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,12 +54,15 @@ if (isset($pdo)) {
 		"name": "Bobr Studio",
 		"url": "<?= SITE_URL ?>",
 		"image": "<?= SITE_URL ?>/logo.svg",
-		"telephone": "+70000000000",
+		"telephone": "+79804027629",
 		"email": "panin-sergej@yandex.com",
 		"address": { "@type": "PostalAddress", "addressLocality": "Москва", "streetAddress": "ул. Примерная, д. 1" },
 		"priceRange": "от 50 000 ₽",
 		"areaServed": "RU",
-		"sameAs": []
+		"sameAs": [
+			"https://t.me/B0br_studio",
+			"https://wa.me/79804027629"
+		]
 	}
 	</script>
 </head>
@@ -82,32 +92,32 @@ if (isset($pdo)) {
 			<nav class="main-nav" id="mainNav">
 				<ul class="nav-list">
 					<li class="has-dropdown">
-						<a href="/dev">Сайты</a>
-						<ul class="dropdown">
-							<li><a href="/dev/internet-magazin">Интернет магазин</a></li>
-							<li><a href="/dev/landing">Лендинг</a></li>
-							<li><a href="/dev/marketplace">Маркетплейс</a></li>
-							<li><a href="/dev/catalog">Каталог</a></li>
-							<li><a href="/dev/corporate">Корпоративный сайт</a></li>
-						</ul>
+					<a href="/sites">Сайты</a>
+					<ul class="dropdown">
+						<li><a href="/sites/internet-magazin">Интернет магазин</a></li>
+						<li><a href="/sites/landing">Лендинг</a></li>
+						<li><a href="/sites/marketplace">Маркетплейс</a></li>
+						<li><a href="/sites/catalog">Каталог</a></li>
+						<li><a href="/sites/corporate">Корпоративный сайт</a></li>
+					</ul>
 					</li>
 					<li><a href="/mobile-app">Приложения</a></li>
 					<li><a href="/telegram-bot">Боты</a></li>
 					<li><a href="/crm">CRM системы</a></li>
 					<li class="has-dropdown">
-						<a href="/promo">Продвижение</a>
-						<ul class="dropdown">
-							<li><a href="/promotion">СЕО продвижение</a></li><li><a href="/yandex-direct">Яндекс Директ</a></li>
-							<li><a href="/smm">SMM продвижение</a></li></ul>
+				<a href="/promo">Продвижение</a>
+					<ul class="dropdown">
+						<li><a href="/promo/seo">СЕО продвижение</a></li><li><a href="/promo/yandex-direct">Яндекс Директ</a></li>
+						<li><a href="/promo/smm">SMM продвижение</a></li></ul>
 					</li>
 					<li class="has-dropdown">
-						<a href="#">Контент</a>
-						<ul class="dropdown">
-							<li><a href="/parsing">Парсинг данных</a></li>
-							<li><a href="/filling">Наполнение товарами</a></li>
-							<li><a href="/site-audit">Аудит сайтов</a></li>
-							<li><a href="/site-support">Поддержка сайтов</a></li>
-						</ul>
+				<a href="/content">Контент</a>
+					<ul class="dropdown">
+						<li><a href="/content/parsing">Парсинг данных</a></li>
+						<li><a href="/content/filling">Наполнение товарами</a></li>
+						<li><a href="/content/site-audit">Аудит сайтов</a></li>
+						<li><a href="/content/site-support">Поддержка сайтов</a></li>
+					</ul>
 					</li>
 					<li class="has-dropdown">
 						<a href="#">Дизайн</a>
@@ -124,11 +134,11 @@ if (isset($pdo)) {
 			</nav>
 			<div class="header-actions">
 				<div class="header-socials">
-					<a href="#" class="header-social" aria-label="Telegram"><img src="/img/vector/telegram.svg" alt="Telegram"></a>
-					<a href="#" class="header-social" aria-label="WhatsApp"><img src="/img/vector/whatsapp.svg" alt="WhatsApp"></a>
-					<a href="#" class="header-social" aria-label="MAX"><img src="/img/vector/max.svg" alt="MAX"></a>
+					<a href="https://t.me/B0br_studio" target="_blank" rel="noopener" class="header-social" aria-label="Telegram"><img src="/img/vector/telegram.svg" alt="Telegram"></a>
+					<a href="https://wa.me/79804027629" target="_blank" rel="noopener" class="header-social" aria-label="WhatsApp"><img src="/img/vector/whatsapp.svg" alt="WhatsApp"></a>
+					<a href="https://max.ru/u/f9LHodD0cOLAIbdcbPh7YQqPWK5DHVTxuWyfw40qLnnHJrcnCqBHdigZb1Y" target="_blank" rel="noopener" class="header-social" aria-label="MAX"><img src="/img/vector/max.svg" alt="MAX"></a>
 				</div>
-				<a href="tel:+70000000000" class="header-phone">+7 (000) 000-00-00</a>
+				<a href="tel:+79804027629" class="header-phone">+7 (980) 402-76-29</a>
 				<a href="/#mainBrief" class="btn btn-main header-cta">Оставить заявку</a>
 			</div>
 			<button class="burger" id="burger" aria-label="Меню">

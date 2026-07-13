@@ -18,6 +18,7 @@ if (!$project) {
 $pageTitle = $project['title'] . ' — портфолио Bobr Studio';
 $pageDesc  = strip_tags($project['desc']);
 $pageDesc  = mb_substr($pageDesc, 0, 160) . '...';
+$ogImage   = isset($images[0]) ? $images[0] : '/logo.svg';
 
 // Keyword-rich alt prefix for SEO
 $altPrefix = ($project['category'] === 'app' ? 'Разработка приложения' : 'Разработка сайта') . ' — ' . $project['title'];
@@ -40,6 +41,18 @@ if (is_dir($folderPath)) {
 
 require_once __DIR__ . '/../includes/header.php';
 ?>
+
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "BreadcrumbList",
+	"itemListElement": [
+		{ "@type": "ListItem", "position": 1, "name": "Главная", "item": "<?= SITE_URL ?>/" },
+		{ "@type": "ListItem", "position": 2, "name": "Портфолио", "item": "<?= SITE_URL ?>/portfolio" },
+		{ "@type": "ListItem", "position": 3, "name": "<?= htmlspecialchars($project['title'], ENT_QUOTES) ?>", "item": "<?= SITE_URL ?>/portfolio/<?= rawurlencode($slug) ?>" }
+	]
+}
+</script>
 
 <section class="page-hero section-light">
 	<div class="container">

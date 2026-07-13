@@ -71,7 +71,7 @@
 					<button type="submit" class="btn btn-main hidden" id="quizSubmit">Отправить заявку</button>
 				</div>
 				<div class="quiz-success hidden" id="quizSuccess">
-					<img src="/img/svg/like.svg" alt="">
+					<img src="/img/svg/like.svg" alt="Заявка отправлена">
 					<h3>Спасибо за заявку!</h3>
 					<p>Мы проверим ваш сайт и свяжемся с вами с результатами и предложением.</p>
 				</div>

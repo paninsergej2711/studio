@@ -68,3 +68,29 @@ $stmt->execute([
 ]);
 
 echo json_encode(['success' => true, 'id' => $pdo->lastInsertId()]);
+
+// Telegram notification
+$tgText = "📋 <b>Новая заявка с брифа</b>\n\n";
+$fields = [
+    'Тематика' => $input['theme'] ?? null,
+    'Другая тема' => $input['themeOther'] ?? null,
+    'Бюджет' => $input['budget'] ?? null,
+    'Сроки' => $input['deadline'] ?? null,
+    'Дизайн' => $input['design'] ?? null,
+    'Референсы' => $input['references'] ?? null,
+    'Функционал' => !empty($func) ? implode(', ', $func) : null,
+    'Интеграции' => !empty($intg) ? implode(', ', $intg) : null,
+    'Страниц' => $input['pagesCount'] ?? null,
+    'Товаров' => $input['productsCount'] ?? null,
+    'CMS' => $input['cms'] ?? null,
+    'Имя' => $input['name'] ?? null,
+    'Телефон' => $input['phone'] ?? null,
+    'Email' => $input['email'] ?? null,
+    'Комментарий' => $input['comment'] ?? null,
+];
+foreach ($fields as $label => $value) {
+    if ($value !== null && $value !== '') {
+        $tgText .= "<b>" . htmlspecialchars($label) . ":</b> " . htmlspecialchars($value) . "\n";
+    }
+}
+telegram_notify($tgText);

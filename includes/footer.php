@@ -10,15 +10,15 @@
 				</a>
 				<p>Bobr Studio — профессиональная разработка сайтов, интернет магазинов и маркетплейсов под ключ.</p>
 				<div class="footer-social">
-					<a href="#" aria-label="Telegram"><img src="/img/vector/telegram.svg" alt="Telegram"></a>
-					<a href="#" aria-label="WhatsApp"><img src="/img/vector/whatsapp.svg" alt="WhatsApp"></a>
-					<a href="#" aria-label="MAX"><img src="/img/vector/max.svg" alt="MAX"></a>
+			<a href="https://t.me/B0br_studio" target="_blank" rel="noopener" aria-label="Telegram"><img src="/img/vector/telegram.svg" alt="Telegram"></a>
+				<a href="https://wa.me/79804027629" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="/img/vector/whatsapp.svg" alt="WhatsApp"></a>
+				<a href="https://max.ru/u/f9LHodD0cOLAIbdcbPh7YQqPWK5DHVTxuWyfw40qLnnHJrcnCqBHdigZb1Y" target="_blank" rel="noopener" aria-label="MAX"><img src="/img/vector/max.svg" alt="MAX"></a>
 				</div>
 			</div>
 			<div class="footer-col">
 				<h4 class="footer-title">Контакты</h4>
 				<ul class="footer-contacts">
-					<li><a href="tel:+70000000000">+7 (000) 000-00-00</a></li>
+					<li><a href="tel:+79804027629">+7 (980) 402-76-29</a></li>
 					<li><a href="mailto:panin-sergej@yandex.com">panin-sergej@yandex.com</a></li>
 					<li>г. Москва, ул. Примерная, д. 1</li>
 					<li>Пн-Пт: 10:00 – 19:00</li>
@@ -27,22 +27,22 @@
 			<div class="footer-col footer-services">
 				<h4 class="footer-title">Услуги</h4>
 				<ul class="footer-links footer-links-cols">
-					<li><a href="/dev/internet-magazin">Интернет магазин</a></li>
-					<li><a href="/dev/marketplace">Маркетплейс</a></li>
-					<li><a href="/mobile-app">Мобильные приложения</a></li>
-					<li><a href="/crm">CRM и ERP системы</a></li>
-					<li><a href="/telegram-bot">Telegram боты</a></li>
-					<li><a href="/design">Веб-дизайн</a></li>
-					<li><a href="/app-design">Дизайн приложений</a></li>
-					<li><a href="/dev">Все сайты</a></li>
-					<li><a href="/promo">Комплексное продвижение</a></li>
-					<li><a href="/yandex-direct">Яндекс Директ</a></li>
-					<li><a href="/smm">SMM продвижение</a></li>
-					<li><a href="/promotion">SEO продвижение</a></li>
-					<li><a href="/parsing">Парсинг данных</a></li>
-					<li><a href="/filling">Наполнение товарами</a></li>
-					<li><a href="/site-support">Поддержка сайтов</a></li>
-					<li><a href="/site-audit">Аудит сайтов</a></li>
+			<li><a href="/sites/internet-magazin">Интернет магазин</a></li>
+				<li><a href="/sites/marketplace">Маркетплейс</a></li>
+				<li><a href="/mobile-app">Мобильные приложения</a></li>
+				<li><a href="/crm">CRM и ERP системы</a></li>
+				<li><a href="/telegram-bot">Telegram боты</a></li>
+				<li><a href="/design">Веб-дизайн</a></li>
+				<li><a href="/app-design">Дизайн приложений</a></li>
+				<li><a href="/sites">Все сайты</a></li>
+			<li><a href="/promo">Комплексное продвижение</a></li>
+				<li><a href="/promo/yandex-direct">Яндекс Директ</a></li>
+				<li><a href="/promo/smm">SMM продвижение</a></li>
+				<li><a href="/promo/seo">SEO продвижение</a></li>
+				<li><a href="/content/parsing">Парсинг данных</a></li>
+				<li><a href="/content/filling">Наполнение товарами</a></li>
+				<li><a href="/content/site-support">Поддержка сайтов</a></li>
+				<li><a href="/content/site-audit">Аудит сайтов</a></li>
 					<li><a href="/portfolio">Портфолио</a></li>
 				</ul>
 			</div>
@@ -100,7 +100,7 @@
 				<p class="tariff-consent">Нажимая кнопку, вы соглашаетесь с <a href="/privacy">политикой конфиденциальности</a>.</p>
 
 				<div class="tariff-success hidden" id="tariffSuccess">
-					<img src="/img/svg/like.svg" alt="">
+					<img src="/img/svg/like.svg" alt="Заявка отправлена">
 					<h3>Спасибо за заявку!</h3>
 					<p>Мы свяжемся с вами выбранным способом в ближайшее время.</p>
 				</div>
@@ -109,5 +109,26 @@
 	</div>
 
 	<script src="/js/main.js" defer></script>
+
+	<!-- Mobile contact widget -->
+	<div class="mobile-contact" id="mobileContact" aria-hidden="true">
+		<button class="mobile-contact__fab" id="mobileContactFab" aria-label="Способы связи">
+			<svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+		</button>
+		<div class="mobile-contact__actions" id="mobileContactActions">
+			<a href="tel:+79804027629" class="mobile-contact__btn mobile-contact__btn--phone" aria-label="Позвонить">
+				<img src="/img/vector/phone.svg" alt="Телефон" width="24" height="24">
+			</a>
+			<a href="https://t.me/B0br_studio" target="_blank" rel="noopener" class="mobile-contact__btn mobile-contact__btn--telegram" aria-label="Telegram">
+				<img src="/img/vector/telegram.svg" alt="Telegram" width="24" height="24">
+			</a>
+			<a href="https://wa.me/79804027629" target="_blank" rel="noopener" class="mobile-contact__btn mobile-contact__btn--whatsapp" aria-label="WhatsApp">
+				<img src="/img/vector/whatsapp.svg" alt="WhatsApp" width="24" height="24">
+			</a>
+			<a href="https://max.ru/u/f9LHodD0cOLAIbdcbPh7YQqPWK5DHVTxuWyfw40qLnnHJrcnCqBHdigZb1Y" target="_blank" rel="noopener" class="mobile-contact__btn mobile-contact__btn--max" aria-label="MAX">
+				<img src="/img/vector/max.svg" alt="MAX" width="24" height="24">
+			</a>
+		</div>
+	</div>
 </body>
 </html>

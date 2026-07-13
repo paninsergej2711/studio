@@ -1,13 +1,25 @@
 <?php
 require_once __DIR__ . '/../config.php';
-$pageTitle = 'Политика конфиденциальности — Bobr Studio';
-$pageDesc = 'Политика конфиденциальности веб-студии Bobr Studio: порядок обработки и защиты персональных данных пользователей сайта.';
+$pageTitle = 'Политика конфиденциальности — обработка персональных данных | Bobr Studio';
+$pageDesc = 'Политика конфиденциальности веб-студии Bobr Studio: какие данные собираем, как обрабатываем и защищаем персональные данные. Соответствие 152-ФЗ.';
+$ogImage = '/logo.svg';
+$noindex = true;
 require_once __DIR__ . '/../includes/header.php';
 ?>
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "BreadcrumbList",
+	"itemListElement": [
+		{ "@type": "ListItem", "position": 1, "name": "Главная", "item": "<?= SITE_URL ?>/" },
+		{ "@type": "ListItem", "position": 2, "name": "Политика конфиденциальности", "item": "<?= SITE_URL ?>/privacy" }
+	]
+}
+</script>
 
 	<section class="page-hero section-light">
 		<div class="container">
-			<div class="breadcrumb"><a href="/">Главная</a> / Политика конфиденциальности</div>
+			<div class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList"><span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item" href="/"><span itemprop="name">Главная</span></a><meta itemprop="position" content="1"></span> / <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><span itemprop="name">Политика конфиденциальности</span><meta itemprop="position" content="2"></span></div>
 			<h1>Политика конфиденциальности</h1>
 		</div>
 	</section>

@@ -40,7 +40,7 @@
 					<p class="quiz-consent">Нажимая «Отправить», вы соглашаетесь с <a href="/privacy">политикой конфиденциальности</a>.</p>
 				</fieldset>
 				<div class="quiz-nav"><button type="button" class="btn btn-outline" id="quizPrev" disabled>Назад</button><button type="button" class="btn btn-main" id="quizNext">Далее</button><button type="submit" class="btn btn-main hidden" id="quizSubmit">Отправить заявку</button></div>
-				<div class="quiz-success hidden" id="quizSuccess"><img src="/img/svg/like.svg" alt=""><h3>Спасибо!</h3><p>Свяжемся в ближайшее время.</p></div>
+				<div class="quiz-success hidden" id="quizSuccess"><img src="/img/svg/like.svg" alt="Заявка отправлена"><h3>Спасибо!</h3><p>Свяжемся в ближайшее время.</p></div>
 			</form>
 		</div>
 		<div class="wave-divider <?= $briefWave ?? 'wave-light' ?>" aria-hidden="true"><svg viewBox="0 0 1200 60" preserveAspectRatio="none"><path d="M0,30 C150,55 350,5 600,30 C850,55 1050,5 1200,30 L1200,60 L0,60 Z"></path></svg></div>

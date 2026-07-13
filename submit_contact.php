@@ -33,3 +33,11 @@ $stmt->execute([
 ]);
 
 echo json_encode(['success' => true, 'id' => $pdo->lastInsertId()]);
+
+// Telegram notification
+$tgText = "✉️ <b>Новое сообщение с сайта</b>\n\n";
+if ($name !== '')    $tgText .= "<b>Имя:</b> " . htmlspecialchars($name) . "\n";
+if ($phone !== '')   $tgText .= "<b>Телефон:</b> " . htmlspecialchars($phone) . "\n";
+if ($email !== '')   $tgText .= "<b>Email:</b> " . htmlspecialchars($email) . "\n";
+if ($message !== '') $tgText .= "<b>Сообщение:</b>\n" . htmlspecialchars($message) . "\n";
+telegram_notify($tgText);

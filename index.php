@@ -2,20 +2,29 @@
 require_once __DIR__ . '/config.php';
 $pageTitle = 'Bobr Studio — разработка сайтов, приложений и ботов под ключ';
 $pageDesc = 'Веб-студия Bobr Studio: профессиональная разработка сайтов, интернет-магазинов, маркетплейсов, мобильных приложений и Telegram-ботов. Индивидуальный дизайн, SEO-продвижение, поддержка.';
+$ogImage = '/img/svg/herocontact.svg';
 require_once __DIR__ . '/includes/header.php';
 ?>
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "BreadcrumbList",
+	"itemListElement": [
+		{ "@type": "ListItem", "position": 1, "name": "Главная", "item": "<?= SITE_URL ?>/" }
+	]
+}
+</script>
 
 	<!-- Hero -->
 	<section class="hero section-light">
 		<canvas class="hero-particles" id="heroParticles" aria-hidden="true"></canvas>
 		<div class="container hero-grid">
 			<div class="hero-content">
-				<div class="slider-title">
-					<h1>Bobr <span class="text-accent">Studio</span></h1>
-					— комплексная разработка сайтов, приложений и ботов под ключ
-				</div>
+			<div class="slider-title">
+				<h1>Комплексная разработка <span class="text-accent">сайтов</span>, приложений и ботов под ключ</h1>
+			</div>
 				<p class="slider-text">Создаём современные цифровые продукты для вашего бизнеса: интернет-магазины, маркетплейсы, мобильные приложения, Telegram-боты, корпоративные сайты и лендинги. От идеи до запуска и продвижения.</p>
-				<a href="/internet-magazin#brief" class="btn btn-main">Обсудить проект</a>
+				<a href="https://t.me/B0br_studio" target="_blank" rel="noopener" class="btn btn-main">Обсудить проект</a>
 			</div>
 			<div class="hero-image">
 				<img src="/img/svg/herocontact.svg" alt="Разработка сайтов, приложений и ботов в веб-студии Bobr Studio" loading="eager">
@@ -34,41 +43,41 @@ require_once __DIR__ . '/includes/header.php';
 				<p class="section-subtitle">Полный цикл разработки цифровых продуктов для бизнеса любого масштаба</p>
 			</div>
 			<div class="services-grid">
-				<a href="/internet-magazin" class="service-card">
-					<div class="service-card-img"><img loading="lazy" src="/img/uslugi/magazinonline.webp" alt="Разработка интернет-магазинов под ключ"></div>
-					<h3>Интернет-магазины</h3>
-					<p>Продающие онлайн-площадки с интеграцией оплат, доставок и CRM. Индивидуальный дизайн и SEO-оптимизация.</p>
-				</a>
-				<a href="/marketplace" class="service-card">
-					<div class="service-card-img"><img loading="lazy" src="/img/uslugi/markerplaces.webp" alt="Разработка маркетплейсов на заказ"></div>
-					<h3>Маркетплейсы</h3>
-					<p>Многопользовательские торговые площадки с личными кабинетами продавцов, системой комиссий и модерацией.</p>
-				</a>
-				<a href="/telegram-bot" class="service-card">
-					<div class="service-card-img"><img loading="lazy" src="/img/uslugi/Telegram-Bots.webp" alt="Разработка Telegram-ботов любой сложности"></div>
-					<h3>Telegram-боты</h3>
-					<p>Автоматизация продаж, поддержки и маркетинга. Боты-магазины, квизы, интеграции с CRM и 1С.</p>
-				</a>
-				<a href="/development" class="service-card">
-					<div class="service-card-img"><img loading="lazy" src="/img/uslugi/korporativnya.webp" alt="Разработка корпоративных сайтов и лендингов"></div>
-					<h3>Корпоративные сайты</h3>
-					<p>Представительские сайты, лендинги и веб-сервисы. Чистый код, адаптивный дизайн.</p>
-				</a>
-				<a href="/development" class="service-card">
-					<div class="service-card-img"><img loading="lazy" src="/img/uslugi/prilojenie.jpg" alt="Разработка мобильных приложений iOS и Android"></div>
-					<h3>Мобильные приложения</h3>
-					<p>Нативная разработка для iOS и Android. Приложения для e-commerce, доставок и бизнеса.</p>
-				</a>
-				<a href="/design" class="service-card">
-					<div class="service-card-img"><img loading="lazy" src="/img/uslugi/ui-disign.png" alt="Профессиональный веб-дизайн и UI/UX"></div>
-					<h3>Веб-дизайн</h3>
-					<p>UI/UX-дизайн, прототипирование и адаптивные макеты. Продающий и удобный интерфейс под ваш бренд.</p>
-				</a>
-				<a href="/promotion" class="service-card">
-					<div class="service-card-img"><img loading="lazy" src="/img/uslugi/prodvijenie.webp" alt="Продвижение сайтов, SEO и контекстная реклама"></div>
-					<h3>Продвижение</h3>
-					<p>SEO-оптимизация, Яндекс.Директ, контекстная реклама. Комплексное продвижение с аналитикой.</p>
-				</a>
+			<a href="/sites/internet-magazin" class="service-card">
+				<div class="service-card-img"><img loading="lazy" src="/img/uslugi/magazinonline.webp" alt="Разработка интернет-магазинов под ключ"></div>
+				<h3>Интернет-магазины</h3>
+				<p>Продающие онлайн-площадки с интеграцией оплат, доставок и CRM. Индивидуальный дизайн и SEO-оптимизация.</p>
+			</a>
+			<a href="/sites/marketplace" class="service-card">
+				<div class="service-card-img"><img loading="lazy" src="/img/uslugi/markerplaces.webp" alt="Разработка маркетплейсов на заказ"></div>
+				<h3>Маркетплейсы</h3>
+				<p>Многопользовательские торговые площадки с личными кабинетами продавцов, системой комиссий и модерацией.</p>
+			</a>
+			<a href="/telegram-bot" class="service-card">
+				<div class="service-card-img"><img loading="lazy" src="/img/uslugi/Telegram-Bots.webp" alt="Разработка Telegram-ботов любой сложности"></div>
+				<h3>Telegram-боты</h3>
+				<p>Автоматизация продаж, поддержки и маркетинга. Боты-магазины, квизы, интеграции с CRM и 1С.</p>
+			</a>
+			<a href="/sites/corporate" class="service-card">
+				<div class="service-card-img"><img loading="lazy" src="/img/uslugi/korporativnya.webp" alt="Разработка корпоративных сайтов и лендингов"></div>
+				<h3>Корпоративные сайты</h3>
+				<p>Представительские сайты, лендинги и веб-сервисы. Чистый код, адаптивный дизайн.</p>
+			</a>
+			<a href="/mobile-app" class="service-card">
+				<div class="service-card-img"><img loading="lazy" src="/img/uslugi/prilojenie.jpg" alt="Разработка мобильных приложений iOS и Android"></div>
+				<h3>Мобильные приложения</h3>
+				<p>Нативная разработка для iOS и Android. Приложения для e-commerce, доставок и бизнеса.</p>
+			</a>
+			<a href="/design" class="service-card">
+				<div class="service-card-img"><img loading="lazy" src="/img/uslugi/ui-disign.png" alt="Профессиональный веб-дизайн и UI/UX"></div>
+				<h3>Веб-дизайн</h3>
+				<p>UI/UX-дизайн, прототипирование и адаптивные макеты. Продающий и удобный интерфейс под ваш бренд.</p>
+			</a>
+			<a href="/promo" class="service-card">
+				<div class="service-card-img"><img loading="lazy" src="/img/uslugi/prodvijenie.webp" alt="Продвижение сайтов, SEO и контекстная реклама"></div>
+				<h3>Продвижение</h3>
+				<p>SEO-оптимизация, Яндекс.Директ, контекстная реклама. Комплексное продвижение с аналитикой.</p>
+			</a>
 				<a href="/content" class="service-card">
 					<div class="service-card-img"><img loading="lazy" src="/img/uslugi/email.webp" alt="Наполнение контентом и копирайтинг для сайтов"></div>
 					<h3>Контент</h3>
@@ -112,7 +121,7 @@ require_once __DIR__ . '/includes/header.php';
 			<h2 class="section-title">Готовы обсудить ваш проект?</h2>
 			<p class="section-subtitle">Заполните бриф — и мы подберём оптимальное решение для вашего бизнеса. Расчёт стоимости и сроков — бесплатно.</p>
 			<div class="cta-buttons">
-				<a href="/internet-magazin#brief" class="btn btn-main">Заполнить бриф</a>
+				<a href="/#mainBrief" class="btn btn-main">Заполнить бриф</a>
 				<a href="/contacts" class="btn btn-outline" style="color:var(--accent);border-color:var(--accent)">Связаться с нами</a>
 			</div>
 		</div>

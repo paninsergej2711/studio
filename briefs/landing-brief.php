@@ -115,7 +115,7 @@
 				</div>
 
 				<div class="quiz-success hidden" id="quizSuccess">
-					<img src="/img/svg/like.svg" alt="">
+					<img src="/img/svg/like.svg" alt="Заявка отправлена">
 					<h3>Спасибо за заявку!</h3>
 					<p>Мы свяжемся с вами в ближайшее время и подготовим предложение по вашему лендингу.</p>
 				</div>

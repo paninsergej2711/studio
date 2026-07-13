@@ -3,5 +3,7 @@ Allow: /
 Disallow: /admin/
 Disallow: /db/
 Disallow: /data/
+Disallow: /submit_brief.php
+Disallow: /submit_contact.php
 
-Sitemap: https://bobr-studio.ru/sitemap.xml
+Sitemap: https://bobrstudio.ru/sitemap.xml

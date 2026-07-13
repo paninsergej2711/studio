@@ -1,9 +1,9 @@
 <?php
-require_once __DIR__ . '/../config.php';
-$pageTitle = 'SEO-продвижение сайтов под ключ — вывод в ТОП Яндекса и Google | Bobr Studio';
+require_once __DIR__ . '/../../config.php';
+$pageTitle = 'SEO-продвижение сайтов под ключ — Bobr Studio';
 $pageDesc = 'Профессиональное SEO-продвижение сайтов: технический аудит, семантическое ядро, внутренняя оптимизация, контент и ссылки. Вывод в ТОП Яндекса и Google, рост органического трафика и заявок.';
 $ogImage = '/img/svg/joinman.svg';
-require_once __DIR__ . '/../includes/header.php';
+require_once __DIR__ . '/../../includes/header.php';
 ?>
 <script type="application/ld+json">
 {
@@ -11,19 +11,9 @@ require_once __DIR__ . '/../includes/header.php';
 	"@type": "BreadcrumbList",
 	"itemListElement": [
 		{ "@type": "ListItem", "position": 1, "name": "Главная", "item": "<?= SITE_URL ?>/" },
-		{ "@type": "ListItem", "position": 2, "name": "SEO продвижение", "item": "<?= SITE_URL ?>/promotion" }
+		{ "@type": "ListItem", "position": 2, "name": "Продвижение", "item": "<?= SITE_URL ?>/promo" },
+		{ "@type": "ListItem", "position": 3, "name": "SEO продвижение", "item": "<?= SITE_URL ?>/promo/seo" }
 	]
-}
-</script>
-<script type="application/ld+json">
-{
-	"@context": "https://schema.org",
-	"@type": "Service",
-	"name": "SEO-продвижение сайтов",
-	"description": "SEO-продвижение сайтов под ключ: технический аудит, семантическое ядро, внутренняя оптимизация, контент и ссылки. Вывод в ТОП Яндекса и Google.",
-	"provider": { "@type": "ProfessionalService", "name": "Bobr Studio", "url": "<?= SITE_URL ?>" },
-	"areaServed": "RU",
-	"offers": { "@type": "Offer", "price": "15000", "priceCurrency": "RUB" }
 }
 </script>
 
@@ -50,7 +40,7 @@ require_once __DIR__ . '/../includes/header.php';
 	</section>
 
 	<!-- Бриф -->
-<?php require __DIR__ . '/../briefs/promo-brief.php'; ?>
+<?php require __DIR__ . '/../../briefs/promo-brief.php'; ?>
 
 	<!-- Преимущества -->
 	<section class="advantages section-light">
@@ -88,9 +78,9 @@ require_once __DIR__ . '/../includes/header.php';
 		</div>
 	</section>
 
-<?php $noWave = true; require_once __DIR__ . '/../includes/tech-marquee.php'; ?>
+<?php $noWave = true; require_once __DIR__ . '/../../includes/tech-marquee.php'; ?>
 
-<?php $pfDarkBg = true; $pfTitle = 'Наше портфолио'; $pfSubtitle = 'Более 30 успешно реализованных и продвигаемых проектов в разных нишах'; require_once __DIR__ . '/../includes/portfolio-block.php'; ?>
+<?php $pfDarkBg = true; $pfTitle = 'Наше портфолио'; $pfSubtitle = 'Более 30 успешно реализованных и продвигаемых проектов в разных нишах'; require_once __DIR__ . '/../../includes/portfolio-block.php'; ?>
 
 	<!-- Цена -->
 	<section class="price section-light">
@@ -146,4 +136,4 @@ require_once __DIR__ . '/../includes/header.php';
 		</div>
 	</section>
 
-<?php require_once __DIR__ . '/../includes/footer.php'; ?>
+<?php require_once __DIR__ . '/../../includes/footer.php'; ?>

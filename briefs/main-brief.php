@@ -116,10 +116,10 @@
         </div>
         <label class="quiz-label">Выберите CMS</label>
         <div class="quiz-options cms-options icon-options">
-          <label class="quiz-option"><input type="radio" name="cms" value="WordPress"><img src="/img/vector/wordpress.svg" alt=""><span>WordPress</span></label>
-          <label class="quiz-option"><input type="radio" name="cms" value="OpenCart"><img src="/img/vector/opencart.svg" alt=""><span>OpenCart</span></label>
-          <label class="quiz-option"><input type="radio" name="cms" value="1С-Битрикс"><img src="/img/vector/bitrix.svg" alt=""><span>1С-Битрикс</span></label>
-          <label class="quiz-option"><input type="radio" name="cms" value="MODX"><img src="/img/vector/modx.svg" alt=""><span>MODX</span></label>
+          <label class="quiz-option"><input type="radio" name="cms" value="WordPress"><img src="/img/vector/wordpress.svg" alt="CMS WordPress"><span>WordPress</span></label>
+          <label class="quiz-option"><input type="radio" name="cms" value="OpenCart"><img src="/img/vector/opencart.svg" alt="CMS OpenCart"><span>OpenCart</span></label>
+          <label class="quiz-option"><input type="radio" name="cms" value="1С-Битрикс"><img src="/img/vector/bitrix.svg" alt="CMS 1С-Битрикс"><span>1С-Битрикс</span></label>
+          <label class="quiz-option"><input type="radio" name="cms" value="MODX"><img src="/img/vector/modx.svg" alt="CMS MODX"><span>MODX</span></label>
           <label class="quiz-option"><input type="radio" name="cms" value="Не знаю"><img src="/img/icons/question.png" alt=""><span>Затрудняюсь</span></label>
         </div>
       </fieldset>
@@ -181,10 +181,10 @@
       <fieldset class="quiz-page" data-flow="Каталог" data-label="Платформа">
         <legend class="quiz-legend">Платформа</legend>
         <div class="quiz-options cms-options icon-options">
-          <label class="quiz-option"><input type="radio" name="cms" value="WordPress"><img src="/img/vector/wordpress.svg" alt=""><span>WordPress</span></label>
-          <label class="quiz-option"><input type="radio" name="cms" value="1С-Битрикс"><img src="/img/vector/bitrix.svg" alt=""><span>1С-Битрикс</span></label>
-          <label class="quiz-option"><input type="radio" name="cms" value="OpenCart"><img src="/img/vector/opencart.svg" alt=""><span>OpenCart</span></label>
-          <label class="quiz-option"><input type="radio" name="cms" value="MODX"><img src="/img/vector/modx.svg" alt=""><span>MODX</span></label>
+          <label class="quiz-option"><input type="radio" name="cms" value="WordPress"><img src="/img/vector/wordpress.svg" alt="CMS WordPress"><span>WordPress</span></label>
+          <label class="quiz-option"><input type="radio" name="cms" value="1С-Битрикс"><img src="/img/vector/bitrix.svg" alt="CMS 1С-Битрикс"><span>1С-Битрикс</span></label>
+          <label class="quiz-option"><input type="radio" name="cms" value="OpenCart"><img src="/img/vector/opencart.svg" alt="CMS OpenCart"><span>OpenCart</span></label>
+          <label class="quiz-option"><input type="radio" name="cms" value="MODX"><img src="/img/vector/modx.svg" alt="CMS MODX"><span>MODX</span></label>
           <label class="quiz-option"><input type="radio" name="cms" value="Не знаю"><img src="/img/icons/question.png" alt=""><span>Затрудняюсь</span></label>
         </div>
       </fieldset>
@@ -476,7 +476,7 @@
       </div>
 
       <div class="quiz-success hidden" id="mainBriefSuccess">
-        <img src="/img/svg/like.svg" alt="">
+        <img src="/img/svg/like.svg" alt="Заявка отправлена">
         <h3>Спасибо за заявку!</h3>
         <p>Мы свяжемся с вами в ближайшее время и предложим оптимальное решение.</p>
       </div>

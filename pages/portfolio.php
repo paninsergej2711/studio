@@ -1,14 +1,33 @@
 <?php
 require_once __DIR__ . '/../config.php';
-$pageTitle = 'Портфолио — Bobr Studio';
-$pageDesc = 'Портфолио веб-студии Bobr Studio: сайты, интернет-магазины и мобильные приложения. Более 30 реализованных проектов.';
+$pageTitle = 'Портфолио сайтов и приложений — более 30 проектов | Bobr Studio';
+$pageDesc = 'Портфолио веб-студии Bobr Studio: сайты, интернет-магазины, маркетплейсы и мобильные приложения. Более 30 реализованных проектов в разных нишах.';
+$ogImage = '/img/svg/girl.svg';
 require_once __DIR__ . '/../includes/header.php';
 ?>
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "BreadcrumbList",
+	"itemListElement": [
+		{ "@type": "ListItem", "position": 1, "name": "Главная", "item": "<?= SITE_URL ?>/" },
+		{ "@type": "ListItem", "position": 2, "name": "Портфолио", "item": "<?= SITE_URL ?>/portfolio" }
+	]
+}
+</script>
+<script type="application/ld+json">
+{
+	"@context": "https://schema.org",
+	"@type": "CollectionPage",
+	"name": "Портфолио сайтов и приложений",
+	"description": "Более 30 проектов веб-студии Bobr Studio — разработка сайтов, интернет-магазинов, маркетплейсов и мобильных приложений."
+}
+</script>
 
 
 	<section class="page-hero section-light">
 		<div class="container">
-			<div class="breadcrumb"><a href="/">Главная</a> / Портфолио</div>
+			<div class="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList"><span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a itemprop="item" href="/"><span itemprop="name">Главная</span></a><meta itemprop="position" content="1"></span> / <span itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><span itemprop="name">Портфолио</span><meta itemprop="position" content="2"></span></div>
 			<h1>Наше портфолио</h1>
 			<p class="section-subtitle" style="margin:0">Более 30 успешно реализованных проектов — от лендингов до сложных маркетплейсов и мобильных приложений.</p>
 		</div>

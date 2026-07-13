@@ -16,26 +16,66 @@ if ($uri !== '/' && is_file($fsPath)) {
 
 $route = trim($uri, '/');
 
-// Redirect old site page URLs to /dev/*
+// ============================================================
+// Redirects: old flat URLs → new nested URLs
+// ============================================================
+
+// Old /dev/* URLs → /sites/*
 $devRedirects = [
-    'landing' => '/dev/landing',
-    'catalog' => '/dev/catalog',
-    'marketplace' => '/dev/marketplace',
-    'internet-magazin' => '/dev/internet-magazin',
-    'vizitka' => '/dev/corporate',
+    'landing' => '/sites/landing',
+    'catalog' => '/sites/catalog',
+    'marketplace' => '/sites/marketplace',
+    'internet-magazin' => '/sites/internet-magazin',
+    'vizitka' => '/sites/corporate',
 ];
 if (isset($devRedirects[$route])) {
     header('Location: ' . $devRedirects[$route], true, 301);
     return true;
 }
-
-// Dev subpages: /dev/{slug} → pages/sites/{slug}.php
-$devMap = [
-    'corporate' => 'vizitka.php',
-];
 if (preg_match('#^dev/([A-Za-z0-9\-]+)$#', $route, $m)) {
+    header('Location: /sites/' . $m[1], true, 301);
+    return true;
+}
+
+// Old promo child pages → /promo/*
+$oldPromoRedirects = [
+    'promotion' => '/promo/seo',
+    'yandex-direct' => '/promo/yandex-direct',
+    'smm' => '/promo/smm',
+];
+if (isset($oldPromoRedirects[$route])) {
+    header('Location: ' . $oldPromoRedirects[$route], true, 301);
+    return true;
+}
+
+// Old content child pages → /content/*
+$oldContentRedirects = [
+    'parsing' => '/content/parsing',
+    'filling' => '/content/filling',
+    'site-audit' => '/content/site-audit',
+    'site-support' => '/content/site-support',
+];
+if (isset($oldContentRedirects[$route])) {
+    header('Location: ' . $oldContentRedirects[$route], true, 301);
+    return true;
+}
+
+// ============================================================
+// Nested routes
+// ============================================================
+
+// /sites → pages/sites/dev.php
+if ($route === 'sites') {
+    $_GET['dev_sub'] = '';
+    define('DEV_SUBPAGE', '');
+    require __DIR__ . '/pages/sites/dev.php';
+    return true;
+}
+// /sites/{slug}
+$sitesMap = ['corporate' => 'vizitka.php'];
+if (preg_match('#^sites/([A-Za-z0-9\-]+)$#', $route, $m)) {
     $sub = $m[1];
-    $fileName = $devMap[$sub] ?? ($sub . '.php');
+    $fileName = $sitesMap[$sub] ?? ($sub . '.php');
     $pagePath = __DIR__ . '/pages/sites/' . $fileName;
     if (is_file($pagePath)) {
         $_GET['dev_sub'] = $sub;
@@ -43,7 +83,50 @@ if (preg_match('#^dev/([A-Za-z0-9\-]+)$#', $route, $m)) {
         require $pagePath;
         return true;
     }
-    // 404
+    http_response_code(404);
+    require __DIR__ . '/index.php';
+    return true;
+}
+
+// /promo/{slug} → pages/sites/{slug}.php
+// /promo → pages/sites/promo.php (родительская)
+// Redirect old /promo/promotion to /promo/seo
+if ($route === 'promo/promotion') {
+    header('Location: /promo/seo', true, 301);
+    return true;
+}
+if ($route === 'promo') {
+    require __DIR__ . '/pages/sites/promo.php';
+    return true;
+}
+if (preg_match('#^promo/([A-Za-z0-9\-]+)$#', $route, $m)) {
+    $sub = $m[1];
+    // yandex-direct.php lives as yandex-direct.php in pages/sites/
+    $fileName = $sub . '.php';
+    $pagePath = __DIR__ . '/pages/sites/' . $fileName;
+    if (is_file($pagePath)) {
+        require $pagePath;
+        return true;
+    }
+    http_response_code(404);
+    require __DIR__ . '/index.php';
+    return true;
+}
+
+// /content/{slug} → pages/sites/{slug}.php
+// /content → pages/content.php (родительская)
+if ($route === 'content') {
+    require __DIR__ . '/pages/content.php';
+    return true;
+}
+if (preg_match('#^content/([A-Za-z0-9\-]+)$#', $route, $m)) {
+    $sub = $m[1];
+    $fileName = $sub . '.php';
+    $pagePath = __DIR__ . '/pages/sites/' . $fileName;
+    if (is_file($pagePath)) {
+        require $pagePath;
+        return true;
+    }
     http_response_code(404);
     require __DIR__ . '/index.php';
     return true;

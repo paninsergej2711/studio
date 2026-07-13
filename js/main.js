@@ -650,7 +650,7 @@ if (mainBriefForm) {
 		for (var i = 0; i < count; i++) {
 			particles.push({
 				x: rand(0, W), y: rand(0, H),
-				vx: rand(-0.4, 0.4), vy: rand(-0.4, 0.4),
+				vx: rand(-0.7, 0.7), vy: rand(-0.7, 0.7),
 				r: rand(1.5, 3.5)
 			});
 		}
@@ -889,5 +889,24 @@ if (mainBriefForm) {
 			alert('Ошибка сети. Попробуйте позже.');
 		};
 		xhr.send(payload);
+	});
+})();
+
+/* ============================================================
+   Mobile contact widget
+   ============================================================ */
+(function () {
+	var fab = document.getElementById('mobileContactFab');
+	var widget = document.getElementById('mobileContact');
+	if (!fab || !widget) return;
+
+	fab.addEventListener('click', function () {
+		widget.classList.toggle('open');
+	});
+
+	document.addEventListener('click', function (e) {
+		if (widget.classList.contains('open') && !widget.contains(e.target)) {
+			widget.classList.remove('open');
+		}
 	});
 })();

@@ -12,7 +12,8 @@ require_once __DIR__ . '/../../includes/header.php';
 	"@type": "BreadcrumbList",
 	"itemListElement": [
 		{ "@type": "ListItem", "position": 1, "name": "Главная", "item": "<?= SITE_URL ?>/" },
-		{ "@type": "ListItem", "position": 2, "name": "Аудит сайта", "item": "<?= SITE_URL ?>/site-audit" }
+		{ "@type": "ListItem", "position": 2, "name": "Контент", "item": "<?= SITE_URL ?>/content" },
+		{ "@type": "ListItem", "position": 3, "name": "Аудит сайта", "item": "<?= SITE_URL ?>/content/site-audit" }
 	]
 }
 </script>

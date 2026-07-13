@@ -70,7 +70,7 @@
 					<button type="submit" class="btn btn-main hidden" id="quizSubmit">Отправить заявку</button>
 				</div>
 				<div class="quiz-success hidden" id="quizSuccess">
-					<img src="/img/svg/like.svg" alt="">
+					<img src="/img/svg/like.svg" alt="Заявка отправлена">
 					<h3>Спасибо за заявку!</h3>
 					<p>Мы свяжемся с вами и предложим оптимальный тариф обслуживания.</p>
 				</div>
