@@ -37,8 +37,13 @@ foreach ($projects as $slug => &$p) {
 		$p['thumb'] = $thumbMap[$slug];
 	} else {
 		$dir = __DIR__ . '/../' . $p['folder'];
-		$images = glob($dir . '/*.png') ?: glob($dir . '/*.jpg') ?: glob($dir . '/*.jpeg') ?: [];
-		$p['thumb'] = !empty($images) ? '/' . $p['folder'] . '/' . basename($images[0]) : '';
+		$thumbWebp = $dir . '/thumb.webp';
+		if (is_file($thumbWebp)) {
+			$p['thumb'] = '/' . $p['folder'] . '/thumb.webp';
+		} else {
+			$images = glob($dir . '/*.png') ?: glob($dir . '/*.jpg') ?: glob($dir . '/*.jpeg') ?: [];
+			$p['thumb'] = !empty($images) ? '/' . $p['folder'] . '/' . basename($images[0]) : '';
+		}
 		$thumbMap[$slug] = $p['thumb'];
 		$cacheDirty = true;
 	}

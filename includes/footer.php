@@ -5,14 +5,14 @@
 		<div class="container footer-grid">
 			<div class="footer-col footer-about">
 				<a href="/" class="footer-logo-link">
-					<img src="/logo.svg" alt="Bobr Studio" class="footer-logo">
+					<img src="/logo.svg" alt="Bobr Studio" class="footer-logo" width="429" height="341">
 					<span class="logo-text"><span>Bobr</span><span>Studio</span></span>
 				</a>
 				<p>Bobr Studio — профессиональная разработка сайтов, интернет магазинов и маркетплейсов под ключ.</p>
 				<div class="footer-social">
-			<a href="https://t.me/B0br_studio" target="_blank" rel="noopener" aria-label="Telegram"><img src="/img/vector/telegram.svg" alt="Telegram"></a>
-				<a href="https://wa.me/79804027629" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="/img/vector/whatsapp.svg" alt="WhatsApp"></a>
-				<a href="https://max.ru/u/f9LHodD0cOLAIbdcbPh7YQqPWK5DHVTxuWyfw40qLnnHJrcnCqBHdigZb1Y" target="_blank" rel="noopener" aria-label="MAX"><img src="/img/vector/max.svg" alt="MAX"></a>
+			<a href="https://t.me/B0br_studio" target="_blank" rel="noopener" aria-label="Telegram"><img src="/img/vector/telegram.svg" alt="Telegram" loading="lazy"></a>
+				<a href="https://wa.me/79804027629" target="_blank" rel="noopener" aria-label="WhatsApp"><img src="/img/vector/whatsapp.svg" alt="WhatsApp" loading="lazy"></a>
+				<a href="https://max.ru/u/f9LHodD0cOLAIbdcbPh7YQqPWK5DHVTxuWyfw40qLnnHJrcnCqBHdigZb1Y" target="_blank" rel="noopener" aria-label="MAX"><img src="/img/vector/max.svg" alt="MAX" loading="lazy"></a>
 				</div>
 			</div>
 			<div class="footer-col">
@@ -108,7 +108,7 @@
 		</div>
 	</div>
 
-	<script src="/js/main.js" defer></script>
+	<script src="/js/main.js?v=2.7" defer></script>
 
 	<!-- Mobile contact widget -->
 	<div class="mobile-contact" id="mobileContact" aria-hidden="true">
@@ -130,5 +130,6 @@
 			</a>
 		</div>
 	</div>
+<noscript><div><img src="https://mc.yandex.ru/watch/110706727" style="position:absolute;left:-9999px" alt="" /></div></noscript>
 </body>
 </html>
